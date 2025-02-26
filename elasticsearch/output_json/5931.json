@@ -1,0 +1,240 @@
+{
+  "ID": [
+    "SF2931"
+  ],
+  "Source": [
+    "Seafood"
+  ],
+  "Date": [
+    "1900-01-01"
+  ],
+  "Country": [
+    "Vietnam"
+  ],
+  "Brand": [
+    "SV5"
+  ],
+  "Serotype": [
+    "Okatie"
+  ],
+  "MLST": [
+    "ST949"
+  ],
+  "AST": [
+    {
+      "Amikacin Interpretation": [
+        "S"
+      ]
+    },
+    {
+      "Tobramycin Interpretation": [
+        "I"
+      ]
+    },
+    {
+      "Gentamicin Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Amox/K Clav Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Amp/Sulbactam Interpretation": [
+        "I"
+      ]
+    },
+    {
+      "Pip/Tazo Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Ampicillin Interpretation": [
+        "I"
+      ]
+    },
+    {
+      "Piperacillin Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Aztreonam Interpretation": [
+        "I"
+      ]
+    },
+    {
+      "Cefepime Interpretation": [
+        "S"
+      ]
+    },
+    {
+      "Cefotaxime Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Cefoxitin Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Ceftazidime Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Cefuroxime Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Chloramphenicol Interpretation": [
+        "S"
+      ]
+    },
+    {
+      "Ciprofloxacin Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Levofloxacin Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Norfloxacin Interpretation": [
+        "S"
+      ]
+    },
+    {
+      "Colistin Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Doripenem Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Ertapenem Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Imipenem Interpretation": [
+        "I"
+      ]
+    },
+    {
+      "Meropenem Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Fosfomycin Interpretation": [
+        "I"
+      ]
+    },
+    {
+      "Minocycline Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Tetracycline Interpretation": [
+        "R"
+      ]
+    },
+    {
+      "Nitrofurantoin Interpretation": [
+        "I"
+      ]
+    },
+    {
+      "Trimeth/Sulfa Interpretation": [
+        "I"
+      ]
+    }
+  ],
+  "SPI": [
+    "CS54_island",
+    "SESS-LEE",
+    "SGI1",
+    "SPI-3",
+    "SPI-5",
+    "SPI-7",
+    "SPI-8",
+    "SPI-9"
+  ],
+  "AMR": [
+    "Aac3-Iva_AGly",
+    "Aac6-Aph2_AGly",
+    "Aac6-If_AGly",
+    "Aph3--Ia_AGly",
+    "Aph4-Ia_AGly",
+    "Sat4A_AGly",
+    "Sat-2A_AGly",
+    "StrB_AGly",
+    "VanC1_Gly",
+    "VanR-C_Gly",
+    "VanS-C_Gly",
+    "ACI-1_Bla",
+    "ACT-MIR_Bla",
+    "AmpC1_Ecoli_Bla",
+    "AmpC2_Ecoli_Bla",
+    "CARB_Bla",
+    "CEPA-85_Bla",
+    "CfiA_Bla",
+    "CMY_Bla",
+    "MrdA_Bla",
+    "OXA-2_Bla",
+    "OXA-50_Bla",
+    "OXA-61_Bla",
+    "SHV-OKP-LEN_Bla",
+    "TEM-1D_Bla",
+    "CatA2_Phe",
+    "CatBx_Phe",
+    "CmlA_Phe",
+    "FexA_Phe",
+    "DfrA1_Tmt",
+    "DfrA23_Tmt",
+    "DfrA27_Tmt",
+    "SulI_Sul",
+    "SulII_Sul",
+    "Erm42_MLS",
+    "ErmB_MLS",
+    "ErmF_MLS",
+    "LnuA_MLS",
+    "MphA_MLS",
+    "FosA2_Fcyn",
+    "Mcr1_Colistin",
+    "Mcr3_Colistin",
+    "OqxB_Flq",
+    "QepA_Flq",
+    "QnrB_Flq",
+    "TetG_Tet",
+    "TetL_Tet",
+    "TetM_Tet",
+    "TetQ_Tet",
+    "TetX_Tet"
+  ],
+  "plasmid": [
+    "IncFIA(HI1)",
+    "IncHI2",
+    "IncR",
+    "IncN",
+    "IncQ1",
+    "IncX1",
+    "IncFII",
+    "IncI(Gamma)",
+    "pKPC-CAV1321",
+    "ColpVC",
+    "Col(pHAD28)"
+  ]
+}

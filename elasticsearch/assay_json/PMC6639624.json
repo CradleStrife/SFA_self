@@ -1,0 +1,58 @@
+{
+  "pmid": 31320434.0,
+  "pmcid": "PMC6639624",
+  "title": "Draft Genome Sequence of Salmonella bongori N19-781, a Clinical Strain from a Patient with Diarrhea.",
+  "abstract": "The genome of Salmonella bongori N19-781, a strain isolated from a patient with diarrhea, was sequenced. It consists of a 4.5-Mbp chromosome.",
+  "authors": "['Stevens, Marc J. A.', 'Cernela, Nicole', 'MÃ¼ller, Andrea', 'Stephan, Roger', 'Bloemberg, Guido']",
+  "journal": "Microbiol Resour Announc",
+  "year": "2019 Jul",
+  "source": "Microbiol Resour Announc. 2019 Jul 18;8(29):. doi:10.1128/MRA.00691-19.",
+  "country": "Switzerlan",
+  "url": "ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_package/0e/b4/PMC6639624.tar.gz",
+  "doi": "10.1128/MRA.00691-19",
+  "key_words": null,
+  "filename": "PMC6639624/MRA.00691-19.pdf",
+  "clean_text": "GENOME SEQUENCES  crossm  Draft Genome Sequence of Salmonella bongori N19-781, a Clinical Strain from a Patient with Diarrhea  Marc J. A. Stevens,a Nicole Cernela,a Andrea M ller,a,b  Roger Stephan,a,b Guido Bloemberga,b  aInstitute for Food Safety and Hygiene, Vetsuisse Faculty, University of Zurich, Zurich, Switzerland  bSwiss National Center for Enteropathogenic Bacteria and Listeria (NENT), University of Zurich, Zurich, Switzerland  ABSTRACT The genome of Salmonella bongori N19-781, a strain isolated from a patient with diarrhea, was sequenced. It consists of a 4.5-Mbp chromosome.  Salmonella strain N19-781 was isolated from a stool sample (using selenite enrich ment and cultivation on Hektoen agar and Elite ChromAgar; bioM rieux, Marcyl toile, France) of a 10-month-old symptomatic female patient residing in the canton of Geneva (Switzerland). According to the White-Kauffmann-Le Minor scheme (1), the strain was serotyped as Salmonella bongori 48:z35:(cid:2). S. bongori is mostly associated with cold-blooded animals (2). Human infections with S. bongori have hardly been reported, although persistent endemicity of S. bongori, with multiple human cases, has been described in southern Italy (3).  The strain N19-781 was grown overnight (o/n) on sheep blood agar at 37 C prior to genomic DNA isolation using a DNA blood and tissue kit (Qiagen, Hombrechtikon, Switzerland). The DNA was prepared using a Nextera DNA Flex sample preparation kit (Illumina, San Diego, CA, USA), which produces transposome-based libraries that were sequenced on a MiniSeq sequencer (Illumina).  The sequencing output was 1,014,820 150-bp paired-end reads. Reads were checked for quality using the software package FastQC 0.11.7 (Babraham Bioinformatics, Cambridge, UK). Both Illumina read  les passed the standard quality checks of FastQC, with the exception of the module  Per Base Sequence Content,  which returned a failure. Such failure is common for transposome-based libraries and was therefore ignored (https://www. bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/). Reads were assembled using the SPAdes 3.0-based software Shovill 1.0.4 (4, 5) using default settings. The assembly was  ltered, retaining contigs of (cid:3)500 bp. The draft genome of S. bongori N19-781 consists of 4,519,152 bp divided over 50 contigs, with an N50 length of 314.9 kbp and a largest contig size of 602,874 kbp. The GC content of the genome is 51.24 mol%. The genome harbors 4,351 genes, including 73 tRNAs, as predicted by the NCBI Prokaryotic Genome Annotation Pipeline (6). The classi cation of strain N19-781 as S. bongori was con rmed by KmerFinder 3.1 (7) using the genome sequence as input and by (cid:3)98.9% average nucleotide identity to other S. bongori genomes (data not shown).  The genome sequence of this clinical Salmonella bongori strain might provide It is one of the few available  information about virulence factors in this species. genomes of clinical strains of this Salmonella species.  Data availability. This whole-genome shotgun project has been deposited at DDBJ/ENA/GenBank under the accession number VCNN00000000. The version described in this paper is the  rst version, VCNN01000000. Reads were deposited in the Sequence Read Archive (SRA) under study number PRJNA545245, experiment number SRX5937612, and run number SRR9164837.  Citation Stevens MJA, Cernela N, M ller A, Stephan R, Bloemberg G. 2019. Draft genome sequence of Salmonella bongori N19-781, a clinical strain from a patient with diarrhea. Microbiol Resour Announc 8:e00691-19. https://doi.org/10.1128/MRA.00691-19.  Editor Frank J. Stewart, Georgia Institute of Technology  Copyright   2019 Stevens et al. This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.  Address correspondence to Roger Stephan, roger.stephan@uzh.ch.  Received 7 June 2019 Accepted 25 June 2019 Published 18 July 2019  Volume 8 Issue 29 e00691-19  mra.asm.org 1  Stevens et al.  ACKNOWLEDGMENT  This work was partly supported by the Swiss Federal Of ce of Public Health,  Communicable Diseases Division.  REFERENCES 1. Grimont PAD, Weill F-X. 2007. Antigenic formulae of the Salmonella serovars, 9th ed. WHO Collaborating Center for Reference and Research on Salmonella, Paris, France.  2. Lamas A, Miranda JM, Regal P, V zquez B, Franco CM, Cepeda A. 2018. A comprehensive review of non-enterica subspecies of Salmonella enterica. Microbiol Res 206:60  73. https://doi.org/10.1016/j.micres .2017.09.010.  3. Giammanco GM, Pignato S, Mammina C, Grimont F, Grimont PA, Nastasi A, Giammanco G. 2002. Persistent endemicity of Salmonella bongori 48:z35:(cid:2) in southern Italy: molecular characterization of human, animal, and environmental isolates. J Clin Microbiol 40:3502 3505. https://doi.org/10.1128/JCM .40.9.3502-3505.2002.  4. Bankevich A, Nurk S, Antipov D, Gurevich A, Dvorkin M, Kulikov AS, Lesin  V, Nikolenko S, Pham S, Prjibelski A, Pyshkin A, Sirotkin A, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. 2012. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol 19:455  477. https://doi.org/10.1089/cmb.2012.0021.  5. Seemann T. 2019. Shovill. https://github.com/tseemann/shovill. 6. Tatusova T, DiCuccio M, Badretdin A, Chetvernin V, Nawrocki EP, Zaslavsky L, Lomsadze A, Pruitt KD, Borodovsky M, Ostell J. 2016. NCBI Prokaryotic Genome Annotation Pipeline. Nucleic Acids Res 44: 6614   6624. https://doi.org/10.1093/nar/gkw569.  7. Larsen MV, Cosentino S, Lukjancenko O, Saputra D, Rasmussen S, Hasman H, Sicheritz-Pont n T, Aarestrup FM, Ussery DW, Lund O. 2014. Benchmarking of methods for genomic taxonomy. J Clin Microbiol 52: 1529  1539. https://doi.org/10.1128/JCM.02981-13.  Volume 8 Issue 29 e00691-19  mra.asm.org 2",
+  "isolate_id": "N19-781",
+  "isolate_source": "stool sample",
+  "isolate_date": [
+    "1900"
+  ],
+  "isolate_country": "Switzerland: canton of Geneva",
+  "serotype": [
+    "Salmonella bongori 48:z35:-"
+  ],
+  "mlst": [
+    "NA"
+  ],
+  "ast_data": [],
+  "spi": [
+    "NA"
+  ],
+  "amr": [
+    "NA"
+  ],
+  "plasmid": [
+    "NA"
+  ],
+  "snp": [
+    "NA"
+  ],
+  "virulence genes": [
+    "NA"
+  ],
+  "accession numbers": [
+    "VCNN00000000[WGS]",
+    "VCNN01000000[WGS]",
+    "PRJNA545245[BioProject]",
+    "srx5937612[SRA experiment]",
+    "srr9164837[SRA runs]"
+  ],
+  "final_cleaned_text": "Draft Genome Sequence of Salmonella bongori N19-781, a Clinical Strain from a Patient with Diarrhea  Marc J. A. Stevens,a Nicole Cernela,a Andrea Müller,a,b Roger Stephan,a,b Guido Bloemberga,b  aInstitute for Food Safety and Hygiene, Vetsuisse Faculty, University of Zurich, Zurich, Switzerland bSwiss National Center for Enteropathogenic Bacteria and Listeria (NENT), University of Zurich, Zurich, Switzerland  ABSTRACT The genome of Salmonella bongori N19-781, a strain isolated from a patient with diarrhea, was sequenced. It consists of a 4.5-Mbp chromosome.  Salmonella strain N19-781 was isolated from a stool sample (using selenite enrichment and cultivation on Hektoen agar and Elite ChromAgar; bioMérieux, Marcy l’Étoile, France) of a 10-month-old symptomatic female patient residing in the canton of Geneva (Switzerland). According to the White-Kauffmann-Le Minor scheme (1), the strain was serotyped as Salmonella bongori 48:z35:�. S. bongori is mostly associated with cold-blooded animals (2). Human infections with S. bongori have hardly been reported, although persistent endemicity of S. bongori, with multiple human cases, has been described in southern Italy (3).  The strain N19-781 was grown overnight (o/n) on sheep blood agar at 37°C prior to genomic DNA isolation using a DNA blood and tissue kit (Qiagen, Hombrechtikon, Switzerland). The DNA was prepared using a Nextera DNA Flex sample preparation kit (Illumina, San Diego, CA, USA), which produces transposome-based libraries that were sequenced on a MiniSeq sequencer (Illumina).  The sequencing output was 1,014,820 150-bp paired-end reads. Reads were checked for quality using the software package FastQC 0.11.7 (Babraham Bioinformatics, Cambridge, UK). Both Illumina read files passed the standard quality checks of FastQC, with the exception of the module “Per Base Sequence Content,” which returned a failure. Such bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/). Reads were assembled using the SPAdes 3.0-based software Shovill 1.0.4 (4, 5) using default settings. The assembly was filtered, retaining contigs of �500 bp. The draft genome of S. bongori N19-781 consists of 4,519,152 bp divided over 50 contigs, with an N50 length of 314.9 kbp and a largest contig size of 602,874 kbp. The GC content of the genome is 51.24 mol%. The genome harbors 4,351 genes, including 73 tRNAs, as predicted by the NCBI Prokaryotic Genome Annotation Pipeline (6). The classification of strain N19-781 as S. bongori was confirmed by KmerFinder 3.1 (7) using the genome sequence as input and by �98.9% average nucleotide identity to other S. bongori genomes (data not shown).  The genome sequence of this clinical Salmonella bongori strain might provide information about virulence factors in this species. It is one of the few available genomes of clinical strains of this Salmonella species.  Data availability. This whole-genome shotgun project has been deposited at  DDBJ/ENA/GenBank under the accession number VCNN00000000. The version described in this paper is the first version, VCNN01000000. Reads were deposited in the Sequence Read Archive (SRA) under study number PRJNA545245, experiment number SRX5937612, and run number SRR9164837.  Citation Stevens MJA, Cernela N, Müller A, Stephan R, Bloemberg G. 2019. Draft genome sequence of Salmonella bongori N19-781, a clinical strain from a patient with diarrhea. Microbiol Resour Announc 8:e00691-19.  Editor Frank J. Stewart, Georgia Institute of Technology  Copyright © 2019 Stevens et al. This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.  Address correspondence to Roger Stephan, roger.stephan@uzh.ch.  Received 7 June 2019 Accepted 25 June 2019 Published 18 July 2019  GENOME SEQUENCES  crossm  Volume 8 Issue 29 e00691-19 mra.asm.org 1  mailto:roger.stephan@uzh.ch   ",
+  "accession numbers_merge": "['SRR9164837[SRA]', 'VCNN01000000[WGS]', 'SRX5937612[SRA]', 'VCNN00000000[WGS]', 'PRJNA545245[BioProject]']",
+  "location": {
+    "lat": 46.22617755,
+    "lon": 6.14658328358216
+  },
+  "countryname": "Switzerland"
+}

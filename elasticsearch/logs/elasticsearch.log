@@ -1,0 +1,128 @@
+[2024-06-25T13:29:44,415][INFO ][o.e.n.NativeAccess       ] [LAPTOP-AKE4PA39] Using [jdk] native provider and native methods for [Windows]
+[2024-06-25T13:29:44,830][INFO ][o.a.l.i.v.PanamaVectorizationProvider] [LAPTOP-AKE4PA39] Java vector incubator API enabled; uses preferredBitSize=512; FMA enabled
+[2024-06-25T13:29:46,308][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] version[8.13.4], pid[21900], build[zip/da95df118650b55a500dcc181889ac35c6d8da7c/2024-05-06T22:04:45.107454559Z], OS[Windows 11/10.0/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/21.0.2/21.0.2+13-58]
+[2024-06-25T13:29:46,309][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] JVM home [C:\Users\Oojy1\sfa-project\elasticsearch\jdk], using bundled JDK [true]
+[2024-06-25T13:29:46,309][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -Djava.security.manager=allow, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=SPI,COMPAT, --add-opens=java.base/java.io=org.elasticsearch.preallocate, --enable-native-access=org.elasticsearch.nativeaccess, -XX:ReplayDataFile=logs/replay_pid%p.log, -Des.distribution.type=zip, -XX:+UseG1GC, -Djava.io.tmpdir=C:\Users\Oojy1\AppData\Local\Temp\elasticsearch, --add-modules=jdk.incubator.vector, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,level,pid,tags:filecount=32,filesize=64m, -Xms3917m, -Xmx3917m, -XX:MaxDirectMemorySize=2054160384, -XX:G1HeapRegionSize=4m, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=15, --module-path=C:\Users\Oojy1\sfa-project\elasticsearch\lib, --add-modules=jdk.net, --add-modules=ALL-MODULE-PATH, -Djdk.module.main=org.elasticsearch.server]
+[2024-06-25T13:29:46,309][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] Default Locale [en_SG]
+[2024-06-25T13:30:02,632][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [repository-url]
+[2024-06-25T13:30:02,635][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [rest-root]
+[2024-06-25T13:30:02,635][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-core]
+[2024-06-25T13:30:02,635][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-redact]
+[2024-06-25T13:30:02,637][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [ingest-user-agent]
+[2024-06-25T13:30:02,637][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-async-search]
+[2024-06-25T13:30:02,637][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-monitoring]
+[2024-06-25T13:30:02,638][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [repository-s3]
+[2024-06-25T13:30:02,638][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-analytics]
+[2024-06-25T13:30:02,638][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-ent-search]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-autoscaling]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [lang-painless]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-ml]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [lang-mustache]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [legacy-geo]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-ql]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [rank-rrf]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [analysis-common]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [health-shards-availability]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [transport-netty4]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [aggregations]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [ingest-common]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [frozen-indices]
+[2024-06-25T13:30:02,640][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-identity-provider]
+[2024-06-25T13:30:02,644][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-shutdown]
+[2024-06-25T13:30:02,644][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-text-structure]
+[2024-06-25T13:30:02,644][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [snapshot-repo-test-kit]
+[2024-06-25T13:30:02,644][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [ml-package-loader]
+[2024-06-25T13:30:02,644][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [kibana]
+[2024-06-25T13:30:02,644][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [constant-keyword]
+[2024-06-25T13:30:02,647][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-logstash]
+[2024-06-25T13:30:02,647][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-ccr]
+[2024-06-25T13:30:02,647][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-graph]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-esql]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [parent-join]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [counted-keyword]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-enrich]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [repositories-metering-api]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [transform]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [repository-azure]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [repository-gcs]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [spatial]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [apm]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [mapper-extras]
+[2024-06-25T13:30:02,648][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [mapper-version]
+[2024-06-25T13:30:02,651][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-rollup]
+[2024-06-25T13:30:02,651][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [percolator]
+[2024-06-25T13:30:02,651][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [data-streams]
+[2024-06-25T13:30:02,651][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-stack]
+[2024-06-25T13:30:02,651][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [rank-eval]
+[2024-06-25T13:30:02,651][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [reindex]
+[2024-06-25T13:30:02,651][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-security]
+[2024-06-25T13:30:02,651][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [blob-cache]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [searchable-snapshots]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-slm]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [snapshot-based-recoveries]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-watcher]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [old-lucene-versions]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-ilm]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-inference]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-voting-only-node]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-deprecation]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-fleet]
+[2024-06-25T13:30:02,654][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-aggregate-metric]
+[2024-06-25T13:30:02,657][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-downsample]
+[2024-06-25T13:30:02,657][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-profiling]
+[2024-06-25T13:30:02,657][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [ingest-geoip]
+[2024-06-25T13:30:02,657][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-write-load-forecaster]
+[2024-06-25T13:30:02,658][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [search-business-rules]
+[2024-06-25T13:30:02,658][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [ingest-attachment]
+[2024-06-25T13:30:02,658][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [wildcard]
+[2024-06-25T13:30:02,659][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-apm-data]
+[2024-06-25T13:30:02,659][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [unsigned-long]
+[2024-06-25T13:30:02,659][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-sql]
+[2024-06-25T13:30:02,659][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [runtime-fields-common]
+[2024-06-25T13:30:02,659][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-async]
+[2024-06-25T13:30:02,659][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [vector-tile]
+[2024-06-25T13:30:02,659][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [lang-expression]
+[2024-06-25T13:30:02,659][INFO ][o.e.p.PluginsService     ] [LAPTOP-AKE4PA39] loaded module [x-pack-eql]
+[2024-06-25T13:30:04,412][INFO ][o.e.e.NodeEnvironment    ] [LAPTOP-AKE4PA39] using [1] data paths, mounts [[Windows (C:)]], net usable_space [32.4gb], net total_space [237.4gb], types [NTFS]
+[2024-06-25T13:30:04,413][INFO ][o.e.e.NodeEnvironment    ] [LAPTOP-AKE4PA39] heap size [3.8gb], compressed ordinary object pointers [true]
+[2024-06-25T13:30:04,541][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] node name [LAPTOP-AKE4PA39], node ID [BINrBlGiTn-dzxBxbEab3Q], cluster name [elasticsearch], roles [data_cold, data, remote_cluster_client, master, data_warm, data_content, transform, data_hot, ml, data_frozen, ingest]
+[2024-06-25T13:30:10,294][INFO ][o.e.f.FeatureService     ] [LAPTOP-AKE4PA39] Registered local node features [data_stream.rollover.lazy, desired_node.version_deprecated, features_supported, health.dsl.info, health.extended_repository_indicator, usage.data_tiers.precalculate_stats]
+[2024-06-25T13:30:11,008][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [LAPTOP-AKE4PA39] [controller/22316] [Main.cc@123] controller (64 bit): Version 8.13.4 (Build 8480947324d752) Copyright (c) 2024 Elasticsearch BV
+[2024-06-25T13:30:11,570][INFO ][o.e.t.a.APM              ] [LAPTOP-AKE4PA39] Sending apm metrics is disabled
+[2024-06-25T13:30:11,570][INFO ][o.e.t.a.APM              ] [LAPTOP-AKE4PA39] Sending apm tracing is disabled
+[2024-06-25T13:30:11,608][INFO ][o.e.x.s.Security         ] [LAPTOP-AKE4PA39] Security is disabled
+[2024-06-25T13:30:11,948][INFO ][o.e.x.w.Watcher          ] [LAPTOP-AKE4PA39] Watcher initialized components at 2024-06-25T05:30:11.948Z
+[2024-06-25T13:30:12,024][INFO ][o.e.x.p.ProfilingPlugin  ] [LAPTOP-AKE4PA39] Profiling is enabled
+[2024-06-25T13:30:12,049][INFO ][o.e.x.p.ProfilingPlugin  ] [LAPTOP-AKE4PA39] profiling index templates will not be installed or reinstalled
+[2024-06-25T13:30:12,049][INFO ][o.e.x.a.APMPlugin        ] [LAPTOP-AKE4PA39] APM ingest plugin is disabled
+[2024-06-25T13:30:12,728][INFO ][o.e.t.n.NettyAllocator   ] [LAPTOP-AKE4PA39] creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=4mb}]
+[2024-06-25T13:30:12,762][INFO ][o.e.i.r.RecoverySettings ] [LAPTOP-AKE4PA39] using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+[2024-06-25T13:30:12,808][INFO ][o.e.d.DiscoveryModule    ] [LAPTOP-AKE4PA39] using discovery type [multi-node] and seed hosts providers [settings]
+[2024-06-25T13:30:14,488][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] initialized
+[2024-06-25T13:30:14,488][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] starting ...
+[2024-06-25T13:30:14,531][INFO ][o.e.x.s.c.f.PersistentCache] [LAPTOP-AKE4PA39] persistent cache index loaded
+[2024-06-25T13:30:14,532][INFO ][o.e.x.d.l.DeprecationIndexingComponent] [LAPTOP-AKE4PA39] deprecation component started
+[2024-06-25T13:30:14,681][INFO ][o.e.t.TransportService   ] [LAPTOP-AKE4PA39] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2024-06-25T13:30:15,192][WARN ][o.e.c.c.ClusterBootstrapService] [LAPTOP-AKE4PA39] this node is locked into cluster UUID [tFk5xej-TmyHv6AsFCvKXA] but [cluster.initial_master_nodes] is set to [LAPTOP-AKE4PA39]; remove this setting to avoid possible data loss caused by subsequent cluster bootstrap attempts; for further information see https://www.elastic.co/guide/en/elasticsearch/reference/8.13/important-settings.html#initial_master_nodes
+[2024-06-25T13:30:15,337][INFO ][o.e.c.s.MasterService    ] [LAPTOP-AKE4PA39] elected-as-master ([1] nodes joined in term 82)[_FINISH_ELECTION_, {LAPTOP-AKE4PA39}{BINrBlGiTn-dzxBxbEab3Q}{8or_fh9OR_KeXbqm87AGqw}{LAPTOP-AKE4PA39}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.13.4}{7000099-8503000} completing election], term: 82, version: 790, delta: master node changed {previous [], current [{LAPTOP-AKE4PA39}{BINrBlGiTn-dzxBxbEab3Q}{8or_fh9OR_KeXbqm87AGqw}{LAPTOP-AKE4PA39}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.13.4}{7000099-8503000}]}
+[2024-06-25T13:30:15,470][INFO ][o.e.c.s.ClusterApplierService] [LAPTOP-AKE4PA39] master node changed {previous [], current [{LAPTOP-AKE4PA39}{BINrBlGiTn-dzxBxbEab3Q}{8or_fh9OR_KeXbqm87AGqw}{LAPTOP-AKE4PA39}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.13.4}{7000099-8503000}]}, term: 82, version: 790, reason: Publication{term=82, version=790}
+[2024-06-25T13:30:15,499][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-AKE4PA39] starting file watcher ...
+[2024-06-25T13:30:15,509][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-AKE4PA39] file settings service up and running [tid=80]
+[2024-06-25T13:30:15,510][INFO ][o.e.c.c.NodeJoinExecutor ] [LAPTOP-AKE4PA39] node-join: [{LAPTOP-AKE4PA39}{BINrBlGiTn-dzxBxbEab3Q}{8or_fh9OR_KeXbqm87AGqw}{LAPTOP-AKE4PA39}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.13.4}{7000099-8503000}] with reason [completing election]
+[2024-06-25T13:30:15,520][INFO ][o.e.h.AbstractHttpServerTransport] [LAPTOP-AKE4PA39] publish_address {10.91.65.25:9200}, bound_addresses {[::]:9200}
+[2024-06-25T13:30:15,537][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] started {LAPTOP-AKE4PA39}{BINrBlGiTn-dzxBxbEab3Q}{8or_fh9OR_KeXbqm87AGqw}{LAPTOP-AKE4PA39}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.13.4}{7000099-8503000}{ml.machine_memory=8215126016, transform.config_version=10.0.0, xpack.installed=true, ml.config_version=12.0.0, ml.max_jvm_size=4110417920, ml.allocated_processors_double=8.0, ml.allocated_processors=8}
+[2024-06-25T13:30:15,998][INFO ][o.e.l.ClusterStateLicenseService] [LAPTOP-AKE4PA39] license [d6957b82-6c88-4252-b7c9-3a34116437c0] mode [basic] - valid
+[2024-06-25T13:30:16,003][INFO ][o.e.g.GatewayService     ] [LAPTOP-AKE4PA39] recovered [3] indices into cluster_state
+[2024-06-25T13:30:16,631][INFO ][o.e.h.n.s.HealthNodeTaskExecutor] [LAPTOP-AKE4PA39] Node [{LAPTOP-AKE4PA39}{BINrBlGiTn-dzxBxbEab3Q}] is selected as the current health node.
+[2024-06-25T13:30:16,679][INFO ][o.e.c.r.a.AllocationService] [LAPTOP-AKE4PA39] current.health="YELLOW" message="Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[sfa][0]]])." previous.health="RED" reason="shards started [[sfa][0]]"
+[2024-06-25T13:30:45,509][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LAPTOP-AKE4PA39] low disk watermark [85%] exceeded on [BINrBlGiTn-dzxBxbEab3Q][LAPTOP-AKE4PA39][C:\Users\Oojy1\sfa-project\elasticsearch\data] free: 32.4gb[13.6%], replicas will not be assigned to this node
+[2024-06-25T13:37:59,614][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] stopping ...
+[2024-06-25T13:37:59,634][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-AKE4PA39] shutting down watcher thread
+[2024-06-25T13:37:59,643][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-AKE4PA39] watcher service stopped
+[2024-06-25T13:37:59,697][INFO ][o.e.x.w.WatcherService   ] [LAPTOP-AKE4PA39] stopping watch service, reason [shutdown initiated]
+[2024-06-25T13:37:59,706][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [LAPTOP-AKE4PA39] [controller/22316] [Main.cc@176] ML controller exiting
+[2024-06-25T13:37:59,711][INFO ][o.e.x.m.p.NativeController] [LAPTOP-AKE4PA39] Native controller process has stopped - no new native processes can be started
+[2024-06-25T13:37:59,714][INFO ][o.e.x.w.WatcherLifeCycleService] [LAPTOP-AKE4PA39] watcher has stopped and shutdown
+[2024-06-25T13:38:00,566][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] stopped
+[2024-06-25T13:38:00,567][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] closing ...
+[2024-06-25T13:38:00,828][INFO ][o.e.n.Node               ] [LAPTOP-AKE4PA39] closed

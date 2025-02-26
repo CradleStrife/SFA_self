@@ -1,0 +1,68 @@
+{
+  "pmid": 27807293.0,
+  "pmcid": "PMC5094244",
+  "title": "Nontyphoidal Salmonella Bacteremia Resulting in Thoracic Aortic Dissection.",
+  "abstract": null,
+  "authors": "['Smith, Simon', 'Okereke, Queen', 'Hanson, Josh']",
+  "journal": "Am J Trop Med Hyg",
+  "year": "2016 Nov 02",
+  "source": "Am J Trop Med Hyg. 2016 Nov 02;95(5):979. doi:10.4269/ajtmh.16-0355.",
+  "country": "Australi",
+  "url": "ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_package/80/f2/PMC5094244.tar.gz",
+  "doi": "10.4269/ajtmh.16-0355",
+  "key_words": null,
+  "filename": "PMC5094244/tropmed-95-979.pdf",
+  "clean_text": "Am. J. Trop. Med. Hyg., 95(5), 2016, p. 979 doi:10.4269/ajtmh.16-0355 Copyright   2016 by The American Society of Tropical Medicine and Hygiene  Images in Clinical Tropical Medicine Nontyphoidal Salmonella Bacteremia Resulting in Thoracic Aortic Dissection  Simon Smith,1,2* Queen Okereke,1 and Josh Hanson1,3 1Department of Medicine, Cairns Hospital, Cairns, Australia; 2James Cook University, Cairns, Australia; 3Menzies School of Health Research, Darwin, Australia  An 84-year-old male retired boilermaker, residing in Australia, presented with the acute onset of anterior, leftsided, pleuritic chest pain. He had a history of ischemic heart disease, and had been on a long-haul flight, returning from Mauritius 9 days previously. An electrocardiogram and echocardiogram were normal and serum troponin levels were negative. A computed tomography (CT) pulmonary angiogram excluded pulmonary embolism, and revealed a calcified atherosclerotic plaque in the thoracic aorta but no other abnormalities. He had no history of diarrhea. On day 2 of admission, he became pyrexial with ongoing chest pain. Blood cultures grew Salmonella typhimurium on three separate collections and intravenous ceftriaxone was initiated. To investigate his ongoing chest pain, on day 7, a CT aortogram was performed, which demonstrated contrast leaking at the site of the calcified atherosclerotic plaque in the proximal and mid-descending thoracic aorta (Figure 1). The aorta was repaired endovascularly by placement of two woven polyester thoracic grafts; the first to the distal aorta above the celiac artery and the second 5 mm distal to the left subclavian artery. Repeat imaging revealed no evidence of ongoing leak. Post-procedure blood cultures were negative. The patient received 4 weeks of intravenous ceftriaxone, and was prescribed oral ciprofloxacin for life-time suppression. Six weeks postoperatively, a repeat CT aortogram revealed no leak, his anemia was improving, and his C-reactive protein had normalized.  Endovascular infection caused by nontyphoidal Salmonella is well described; however, it usually involves the abdominal aorta.1 Patients over the age of 50 years with risk factors for atherosclerotic disease are most likely to develop aortitis secondary to Salmonella bacteremia.2,3 Medical therapy alone is unlikely to be curative; hence, patients should also receive surgical intervention in conjunction with extended antibiotic therapy.4  Written informed consent was obtained from the patient  and provided to the Editor-In-Chief of this journal.  Received May 3, 2016. Accepted for publication May 30, 2016.  Acknowledgments: We are grateful to the patient for his participation and to Enzo Binotto for his advice and input in this case. Authors  addresses: Simon Smith, Department of Medicine, Cairns Hospital, Cairns, Australia, and College of Medicine and Dentistry, James Cook University Cairns Campus, Cairns, Australia, E-mail: simon.smith2@health.qld.gov.au. Queen Okereke, Department of Medicine, Cairns Hospital, Cairns, Australia, E-mail: queen.okereke@ health.qld.gov.au. Josh Hanson, Department of Medicine, Cairns Hospital, Cairns, Australia, and Department of Global Health, Menzies School of Health Research, Darwin, Australia, E-mail: joshua.hanson@ health.qld.gov.au.  This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.  REFERENCES  1. Soravia-Dunand VA, Loo VG, Salit IE, 1999. Aortitis due to Salmonella: report of 10 cases and comprehensive review of the literature. Clin Infect Dis 29: 862 868.  2. Cohen PS, O Brien TF, Schoenbaum S, Medeiros AA, 1978. The risk of endothelial infection in adults with Salmonella bacteremia. Ann Intern Med 89: 931 932.  3. Benenson S, Raveh D, Schlesinger Y, Alberton J, Rudensky B, Hadas-Halpern I, Yinnon AM, 2001. The risk of vascular infection in adult patients with nontyphi Salmonella bacteremia. Am J Med 110: 60 63.  4. Oskoui R, Davis WA, Gomes MN, 1993. Salmonella aortitis. A report of a successfully treated case with a comprehensive review of the literature. Arch Intern Med 153: 517 525.  FIGURE 1.  (A) Coronal images revealing extravasation of contrast at the site of the calcified atherosclerotic plaque (arrow). (B) Sagittal images highlighting the calcified plaque with adjacent leak of contrast from the proximal (upper arrow) and mid-descending (lower arrow) thoracic aorta. (C) Sagittal image showing repair of the aortic dissection with graft in situ.  *Address correspondence to Simon Smith, Department of Medicine, Cairns Hospital, The Esplanade, Cairns, Queensland 4870, Australia. E-mail: simon.smith2@health.qld.gov.au  979",
+  "isolate_id": "NA",
+  "isolate_source": "blood cultures",
+  "isolate_date": [
+    "2016"
+  ],
+  "isolate_country": "Australia",
+  "serotype": [
+    "Salmonella typhimurium"
+  ],
+  "mlst": [
+    "NA"
+  ],
+  "ast_data": [
+    {
+      "serotype": "Salmonella typhimurium",
+      "antibiotics": [
+        {
+          "name": "ceftriaxone",
+          "mic": "NA",
+          "interpretation": "NA"
+        },
+        {
+          "name": "ciprofloxacin",
+          "mic": "NA",
+          "interpretation": "NA"
+        }
+      ]
+    }
+  ],
+  "spi": [
+    "NA"
+  ],
+  "amr": [
+    "NA"
+  ],
+  "plasmid": [
+    "NA"
+  ],
+  "snp": [
+    "NA"
+  ],
+  "virulence genes": [
+    "NA"
+  ],
+  "accession numbers": [],
+  "final_cleaned_text": "tpm13801 979..979   Am. J. Trop. Med. Hyg., 95(5), 2016, p. 979 doi:10.4269/ajtmh.16-0355 Copyright © 2016 by The American Society of Tropical Medicine and Hygiene  Images in Clinical Tropical Medicine Nontyphoidal Salmonella Bacteremia Resulting in Thoracic Aortic Dissection  Simon Smith,1,2* Queen Okereke,1 and Josh Hanson1,3 1Department of Medicine, Cairns Hospital, Cairns, Australia; 2James Cook University, Cairns, Australia;  3Menzies School of Health Research, Darwin, Australia  An 84-year-old male retired boilermaker, residing in Australia, presented with the acute onset of anterior, leftsided, pleuritic chest pain. He had a history of ischemic heart disease, and had been on a long-haul flight, returning from Mauritius 9 days previously. An electrocardiogram and echocardiogram were normal and serum troponin levels were negative. A computed tomography (CT) pulmonary angiogram excluded pulmonary embolism, and revealed a calcified atherosclerotic plaque in the thoracic aorta but no other abnormalities. He had no history of diarrhea. On day 2 of admission, he became pyrexial with ongoing chest pain. Blood cultures grew Salmonella typhimurium on three separate collections and intravenous ceftriaxone was initiated. To investigate his ongoing chest pain, on day 7, a CT aortogram was performed, which demonstrated contrast leaking at the site of the calcified atherosclerotic plaque in the proximal and mid-descending thoracic aorta (Figure 1). The aorta was repaired endovascularly by placement of two woven polyester thoracic grafts; the first to the distal aorta above the celiac artery and the second 5 mm distal to the left subclavian artery. Repeat imaging revealed no evidence of ongoing leak. Post-procedure blood cultures were negative. The patient received 4 weeks of intravenous ceftriaxone, and was prescribed oral ciprofloxacin for life-time suppression. Six weeks postoperatively, a repeat CT aortogram revealed no leak, his anemia was improving, and his C-reactive protein had normalized. Endovascular infection caused by nontyphoidal Salmonella is  well described; however, it usually involves the abdominal aorta.1 Patients over the age of 50 years with risk factors for atherosclerotic disease are most likely to develop aortitis secondary to Salmonella bacteremia.2,3 Medical therapy alone is unlikely to be curative; hence, patients should also receive surgical intervention in conjunction with extended antibiotic therapy.4  Written informed consent was obtained from the patient and provided to the Editor-In-Chief of this journal.  Received May 3, 2016. Accepted for publication May 30, 2016.  Acknowledgments: We are grateful to the patient for his participation and to Enzo Binotto for his advice and input in this case.  Authors’ addresses: Simon Smith, Department of Medicine, Cairns Hospital, Cairns, Australia, and College of Medicine and Dentistry, James Cook University Cairns Campus, Cairns, Australia, E-mail: simon.smith2@health.qld.gov.au. Queen Okereke, Department of Medicine, Cairns Hospital, Cairns, Australia, E-mail: queen.okereke@ health.qld.gov.au. Josh Hanson, Department of Medicine, Cairns Hospital, Cairns, Australia, and Department of Global Health, Menzies School of Health Research, Darwin, Australia, E-mail: joshua.hanson@ health.qld.gov.au.  This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.  ",
+  "accession numbers_merge": "[]",
+  "location": {
+    "lat": -24.7761086,
+    "lon": 134.755
+  },
+  "countryname": "Australia"
+}

@@ -1,0 +1,146 @@
+services:
+  eureka-server: 
+    image: sfa-project-eureka-server  # Use the image name you loaded on the remote server
+    ports:
+      - "8761:8761"
+    environment:
+      - CURRENT_HOST=192.168.10.222
+    networks:
+      - eureka-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://eureka-server:8761"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - eureka-network
+  
+  celery:
+    image: sfa-project-django  # Use the image name you loaded for django
+    command: celery -A searchtest worker --loglevel=info
+    depends_on:
+      - django
+      - redis
+    networks:
+      - eureka-network
+
+  celery_beat:
+    image: sfa-project-django  # Use the same image for Celery Beat
+    command: celery -A searchtest beat --loglevel=info
+    depends_on:
+      - django
+      - redis
+    networks:
+      - eureka-network
+
+  django:
+    image: sfa-project-django  # Use the image name you loaded on the server
+    ports:
+      - "8000:8000"
+    environment:
+      - EUREKA_SERVER=http://eureka-server:8761/eureka/
+      - EUREKA_APP_NAME=django
+      - EUREKA_INSTANCE_PORT=8000
+      - EUREKA_HOST=192.168.10.222
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - CORS_ALLOWED_ORIGINS=http://localhost:5173,http://192.168.10.222:5173
+      - INDEX_NAME=local
+    networks:
+      - eureka-network
+    depends_on:
+      - elasticsearch
+
+  vue:
+    image: sfa-project-vue  # Use the loaded Vue image name
+    ports:
+      - "5173:5173"
+    depends_on:
+      - django
+    networks:
+      - eureka-network
+    # Remove volumes if not needed for production
+
+
+  elasticsearch:
+    image: sfa-project-elasticsearch  # Use the loaded Elasticsearch image
+    environment:
+      - cluster.name=sfa_local
+      - node.name=node-1
+      - discovery.seed_hosts=elasticsearch,elasticsearch2
+      - cluster.initial_master_nodes=node-1,node-2
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+      - ES_HOST=192.168.10.222
+      - ES_PORT=9200
+      - INDEX_NAME=local
+      - EUREKA_SERVER=http://eureka-server:8761/eureka/
+      - SPRING_APPLICATION_NAME=elasticsearch
+      - SERVER_PORT=8080
+      - CURRENT_HOST=192.168.10.222
+      - Server=http://192.168.10.222:8761/
+    ports:
+      - "9200:9200"
+    volumes:
+      - es_data1:/usr/share/elasticsearch/data
+
+    networks:
+      - eureka-network
+
+  elasticsearch2:
+    image: sfa-project-elasticsearch2  # Use the same image for Elasticsearch node 2
+    environment:
+      - cluster.name=sfa_local
+      - node.name=node-2
+      - discovery.seed_hosts=elasticsearch,elasticsearch2
+      - cluster.initial_master_nodes=node-1,node-2
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+      - ES_HOST=192.168.10.222
+      - ES_PORT=9201
+      - INDEX_NAME=local
+      - EUREKA_SERVER=http://eureka-server:8761/eureka/
+      - SPRING_APPLICATION_NAME=elasticsearch2
+      - SERVER_PORT=8081
+      - CURRENT_HOST=192.168.10.222
+      - Server=http://192.168.10.222:8761/
+      - http.port=9201
+    ports:
+      - "9201:9201"
+    volumes:
+      - es_data2:/usr/share/elasticsearch/data
+    networks:
+      - eureka-network
+
+  monitoring_dj:
+    image: sfa-project-monitoring_dj  # Replace with the loaded image name
+    environment:
+      - CURRENT_HOST
+      - PYTHONUNBUFFERED=1  
+    depends_on:
+      - django
+      - eureka-server
+    networks:
+      - eureka-network
+
+  monitoring_es:
+    image: sfa-project-monitoring_es  # Replace with the loaded image name
+    environment:
+      - CURRENT_HOST
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - elasticsearch
+      - eureka-server
+    networks:
+      - eureka-network 
+
+networks:
+  eureka-network:
+    driver: bridge
+volumes:
+  es_data1:
+  es_data2:

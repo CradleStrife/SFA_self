@@ -1,0 +1,111 @@
+{
+  "pmid": 30938709.0,
+  "pmcid": "PMC6430326",
+  "title": "Draft Genome Sequences of 27 Salmonella enterica Serovar Schwarzengrund Isolates from Clinical Sources.",
+  "abstract": "Twenty-seven Salmonella enterica serovar Schwarzengrund isolates from clinical sources were sequenced as part of a larger study to examine phenotypic and genotypic characteristics. The majority of the sequenced strains were isolated from human stool (n = 20) followed by urine (n = 3) and blood (n = 2).",
+  "authors": "['Khajanchi, Bijay K.', 'Yoskowitz, Noah C.', 'Han, Jing', 'Wang, Xiong', 'Foley, Steven L.']",
+  "journal": "Microbiol Resour Announc",
+  "year": "2019 Mar",
+  "source": "Microbiol Resour Announc. 2019 Mar 21;8(12):. doi:10.1128/MRA.01687-18.",
+  "country": "US",
+  "url": "ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_package/48/0b/PMC6430326.tar.gz",
+  "doi": "10.1128/MRA.01687-18",
+  "key_words": null,
+  "filename": "PMC6430326/MRA.01687-18.pdf",
+  "clean_text": "GENOME SEQUENCES  crossm  Draft Genome Sequences of 27 Salmonella enterica Serovar Schwarzengrund Isolates from Clinical Sources  Bijay K. Khajanchi,a Noah C. Yoskowitz,a,b Jing Han,a Xiong Wang,c Steven L. Foleya  aNational Center for Toxicological Research, U.S. Food and Drug Administration, Jefferson, Arkansas, USA  bPennsylvania State University, University Park, Pennsylvania, USA  cMinnesota Department of Health, Saint Paul, Minnesota, USA  ABSTRACT Twenty-seven Salmonella enterica serovar Schwarzengrund isolates from clinical sources were sequenced as part of a larger study to examine phenotypic and genotypic characteristics. The majority of the sequenced strains were isolated from human stool (n (cid:2) 20) followed by urine (n (cid:2) 3) and blood (n (cid:2) 2). Four isolate sequences contained plasmids of known incompatibility groups.  Salmonella enterica serovar Schwarzengrund strains can cause salmonellosis in hu mans and infections in other animal species (1). The spread of multidrug-resistant S. Schwarzengrund from imported food products to humans has been reported (1). S. Schwarzengrund strains isolated from imported food products have been found to display a high level of resistance to  uoroquinolones (2). Furthermore, the production of extended-spectrum (cid:2)-lactamase (ESBL), including carbapenemase (KPC-2), by S. Schwarzengrund has been found in different countries, which concerns observers (3 5). ESBL genes are often encoded on plasmids (3, 4, 6), which can facilitate their rapid transfer among Gram-negative pathogens, and this has created a major public health concern. Therefore, monitoring antimicrobial resistance (AMR) dynamics and characterization of mobile genetic elements, including plasmids of S. Schwarzengrund isolated from domestic and imported foods, food animals, and humans, is important. In the present study, whole-genome sequencing analyses of S. Schwarzengrund isolates from clinical sources will facilitate the study of AMR and resistance transmission.  Twenty-seven S. Schwarzengrund isolates from clinical sources were collected from the Minnesota Department of Health (Saint Paul, MN) and sequenced at the Division of Microbiology, National Center for Toxicological Research, U.S. Food and Drug Administration (Jefferson, AR). Epidemiological information for these isolates is listed in Table 1.  Stool samples were plated on Hektoen enteric agar, salmonella-shigella agar, and enrichment broths (Becton, Dickinson and Company [BD], Franklin Lakes, NJ). The plate or broth was then incubated at 35 C for 18 to 24 h. Colonies that were suspiciously lactose negative and positive for H2S were subsequently inoculated in motility-indolelysine agar, triple sugar iron agar, and a urea agar plate (BD). Identi cation was con rmed using matrix-assisted laser desorption ionization time of  ight mass (MALDITOF) spectrometry. Likewise, blood and other clinical isolates were identi ed using standard microbiological procedures.  The total bacterial DNA was extracted with a DNeasy blood and tissue kit (Qiagen, Valencia, CA), and DNA sequencing libraries were constructed with the Nextera XT DNA library preparation kit (Illumina, San Diego, CA). Samples were multiplexed with a unique combination of two indexes of the Nextera XT index kit. Whole-genome sequencing (WGS) reactions were carried out on an Illumina MiSeq instrument with a 2 (cid:3) 300 paired-end format (7). Trimming and de novo assembly were performed with  Citation Khajanchi BK, Yoskowitz NC, Han J, Wang X, Foley SL. 2019. Draft genome sequences of 27 Salmonella enterica serovar Schwarzengrund isolates from clinical sources. Microbiol Resour Announc 8:e01687-18. https://doi.org/10.1128/MRA.01687-18.  Editor John J. Dennehy, Queens College  Copyright   2019 Khajanchi et al. This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.  Address correspondence to Bijay K. Khajanchi, bijay.khajanchi@fda.hhs.gov.  Received 14 December 2018 Accepted 19 February 2019 Published 21 March 2019  Volume 8 Issue 12 e01687-18  mra.asm.org 1  Khajanchi et al.  TABLE 1 Whole-genome sequencing analyses of Salmonella Schwarzengrund isolates from clinical sources  Strain no. MDH-1 MDH-2 MDH-3 MDH-4 MDH-5 MDH-6 MDH-7 MDH-8 MDH-9 MDH-10  MDH-11 MDH-12 MDH-13 MDH-14 MDH-15 MDH-16 MDH-17 MDH-18 MDH-19 MDH-20  MDH-21 MDH-22 MDH-23 MDH-24 MDH-25 MDH-26 MDH-27  Source of isolate Blood Stool Stool Stool Stool Stool Stool Stool Stool Stool  Stool Stool Stool Blood Stool Stool Stool Gallbladder Urine Subhepatic aspirate  Stool Stool Urine Stool Stool Urine Stool  Yr of isolation 2003 2003 2004 2004 2004 2005 2005 2006 2007 2007  2008 2009 2010 2011 2011 2012 2012 2013 2013 2013  2014 2014 2014 2014 2015 2016 2016  No. of sequence reads 4,813,548 3,729,214 3,706,472 3,221,282 4,754,358 3,945,558 4,316,768 2,438,762 3,737,938 4,576,284  4,129,638 4,399,374 4,764,064 3,208,474 2,124,138 1,892,712 1,532,044 3,806,536 2,291,464 2,936,934  2,343,572 2,023,560 1,872,516 2,607,656 2,424,548 3,795,856 2,566,758  N50 value (bp) 255,417 340,162 112,364 167,201 149,628 138,815 93,969 91,707 85,408 102,545  389,856 230,080 310,035 312,411 177,815 153,861 123,253 75,786 60,132 69,988  57,255 59,303 52,555 53,183 35,368 36,628 54,067  No. of contigs 61 56 100 80 118 101 128 158 119 106  43 54 49 51 85 67 100 162 201 168  195 176 195 197 313 274 225  Assembly size (bp) 4,771,771 4,775,162 4,684,005 4,674,736 4,715,784 4,774,615 4,775,144 5,117,666 4,700,238 4,693,974  4,722,650 4,706,223 4,739,724 4,767,578 4,766,481 4,800,611 4,802,467 4,881,277 4,775,923 4,888,146  4,688,259 4,687,016 4,690,085 4,682,121 4,778,730 4,807,879 4,807,042  No. of CDSs 4,845 4,828 4,717 4,715 4,767 4,854 4,853 5,291 4,787 4,766  4,752 4,745 4,806 4,829 4,829 4,894 4,863 5,005 4,879 5,028  4,773 4,762 4,776 4,730 4,868 4,944 4,891  G(cid:2)C content (%) 52.2 52.2 52.1 52.1 52.0 52.2 52.2 51.6 52.0 52.0  52.2 52.1 52.1 52.2 52.2 52.0 52.0 52.1 52.2 52.1  52.1 52.1 52.1 52.2 52.1 52.0 52.0  GenBank accession no. QZET00000000 QZES00000000 QZER00000000 QZEQ00000000 QZEP00000000 QZEO00000000 QZEN00000000 QZEM00000000 QZEL00000000 QZEK00000000  QZFD00000000 QZFE00000000 QZFF00000000 QZFG00000000 QZMP00000000 QZFH00000000 QZFI00000000 QZFJ00000000 QZFK00000000 QZFL00000000  QZFM00000000 QZMQ00000000 QZFN00000000 QZMR00000000 QZFO00000000 QZFP00000000 QZFQ00000000  CLC Genomics Workbench (v. 9, Qiagen, Germantown, MD). Genome sequences from individual samples were examined simultaneously with individual annotation tools, such as Rapid Annotation using Subsystem Technology (RAST) (8) and Pathosystems Resource Integration Center (PATRIC) (9), to cross-examine the sequence data. Subsequently, sequences were submitted to the NCBI using the WGS submission portal for  nal annotation with the Prokaryotic Genome Automatic Annotation Pipeline (PGAAP) (10) (Table 1). The number of contigs, assembly size, coding sequences (CDSs), and G(cid:4)C contents of each sample included in Table 1 were annotated with PATRIC. Annotation performed with the PGAAP was used as the  nal annotation available in the NCBI. We applied default settings for the bioinformatic software tools used for sequence trimming, de novo assembly, and annotation of the sequences.  Among 27 S. Schwarzengrund clinical isolates, PlasmidFinder (11) analyses showed that four of the isolates contained plasmids of identi ed incompatibility (Inc) groups. MDH-8 contained the IncHI2 and IncHI2A plasmids, and MDH-18, MDH-20, and MDH-25 contained the IncI1 plasmid. ResFinder (12) analyses showed that MDH-8 contained the aph(6)-Id, strA, and tet(B) resistance genes; MDH-18 and MDH-20 contained the aph(3=)-Ia and blaCMY-2 genes; and MDH-25 contained the aac(3)-VIa, aadA1, and sul1 genes.  Data availability. This whole-genome shotgun project is deposited at DDBJ/ENA/ GenBank under the accession numbers listed in Table 1, and the SRA submission of raw data (FastQ format) is recorded under the accession number PRJNA312617.  ACKNOWLEDGMENTS  We thank Kidon Sung and Saeed Khan for their insightful review and critique of the  manuscript.  N.C.Y. was supported by the Summer Student Research Program (SSRP), Oak Ridge  Institute for Science and Education (ORISE), Oak Ridge, TN.  Volume 8 Issue 12 e01687-18  mra.asm.org 2  Microbiology Resource Announcement  The information in the manuscript is not a formal dissemination of information by the FDA and does not represent an agency position or policy. Reference to any commercial material, equipment, or process does not in any way constitute approval, endorsement, or recommendation by the FDA.  REFERENCES 1. Aarestrup FM, Hendriksen RS, Lockett J, Gay K, Teates K, McDermott PF, White DG, Hasman H, S rensen G, Bangtrakulnonth A, Pornreongwong S, Pulsrikarn C, Angulo FJ, Gerner-Smidt P. 2007. International spread of multidrug-resistant Salmonella Schwarzengrund in food products. Emerg Infect Dis 13:726  731. https://doi.org/10.3201/eid1305.061489. 2. Akiyama T, Khan AA. 2012. Molecular characterization of strains of  uoroquinolone-resistant Salmonella enterica serovar Schwarzengrund carrying multidrug resistance isolated from imported foods. J Antimicrob Chemother 67:101 110. https://doi.org/10.1093/jac/dkr414.  3. Jure MA, Duprilot M, Musa HE, L pez C, de Castillo MC, Weill FX, Arlet G, Decr  D. 2014. Emergence of KPC-2-producing Salmonella enterica serotype Schwarzengrund in Argentina. Antimicrob Agents Chemother 58:6335  6336. https://doi.org/10.1128/AAC.03322-14.  4. Silva KC, Fontes LC, Moreno AM, Astol -Ferreira CS, Ferreira AJP, Lincopan N. 2013. Emergence of extended-spectrum-beta-lactamase CTX-M2-producing Salmonella enterica serovars Schwarzengrund and Agona in poultry farms. Antimicrob Agents Chemother 57:3458  3459. https://doi .org/10.1128/AAC.05992-11.  5. Osawa K, Shigemura K, Shimizu R, Kato A, Kimura M, Katayama Y, Okuya Y, Yutaka S, Nishimoto A, Kishi A, Fujiwara M, Yoshida H, Iijima Y, Fujisawa M, Shirakawa T. 2014. Antimicrobial resistance in Salmonella strains clinically isolated in Hyogo, Japan (2009  2012). Jpn J Infect Dis 67:54  57. https://doi.org/10.7883/yoken.67.54.  6. Moura Q, Fernandes MR, Silva KC, Monte DF, Esposito F, Dropa M, Noronha C, Moreno AM, Landgraf M, Negr o FJ, Lincopan N. 2018. Virulent nontyphoidal Salmonella producing CTX-M and CMY-2 betalactamases from livestock, food and human infection, Brazil. Virulence 9:281 286. https://doi.org/10.1080/21505594.2017.1279779.  7. Khajanchi BK, Han J, Gokulan K, Zhao S, Gies A, Foley SL. 2016. Draft genome sequences of four Salmonella enterica strains isolated from  turkey-associated sources. Genome Announc 4:e01122-16. https://doi .org/10.1128/genomeA.01122-16.  8. Aziz RK, Bartels D, Best AA, DeJongh M, Disz T, Edwards RA, Formsma K, Gerdes S, Glass EM, Kubal M, Meyer F, Olsen GJ, Olson R, Osterman AL, Overbeek RA, McNeil LK, Paarmann D, Paczian T, Parrello B, Pusch GD, Reich C, Stevens R, Vassieva O, Vonstein V, Wilke A, Zagnitko O. 2008. The RAST Server: Rapid Annotations using Subsystems Technology. BMC Genomics 9:75. https://doi.org/10.1186/1471-2164-9-75.  9. Wattam AR, Abraham D, Dalay O, Disz TL, Driscoll T, Gabbard JL, Gillespie JJ, Gough R, Hix D, Kenyon R, Machi D, Mao C, Nordberg EK, Olson R, Overbeek R, Pusch GD, Shukla M, Schulman J, Stevens RL, Sullivan DE, Vonstein V, Warren A, Will R, Wilson MJC, Yoo HS, Zhang C, Zhang Y, Sobral BW. 2014. PATRIC, the bacterial bioinformatics database and analysis resource. Nucleic Acids Res 42:D581 D591. https://doi.org/10 .1093/nar/gkt1099.  10. Angiuoli SV, Gussman A, Klimke W, Cochrane G, Field D, Garrity GM, Kodira CD, Kyrpides N, Madupu R, Markowitz V, Tatusova T, Thomson N, White O. 2008. Toward an online repository of standard operating procedures (SOPs) for (meta)genomic annotation. OMICS 12:137 141. https://doi.org/10.1089/omi.2008.0017.  11. Carattoli A, Zankari E, Garc a-Fern ndez A, Voldby Larsen M, Lund O, Villa L, M ller Aarestrup F, Hasman H. 2014. In silico detection and typing of plasmids using PlasmidFinder and plasmid multilocus sequence typing. Antimicrob Agents Chemother 58:3895 3903. https://doi.org/10.1128/ AAC.02412-14.  12. Zankari E, Hasman H, Cosentino S, Vestergaard M, Rasmussen S, Lund O, Aarestrup FM, Larsen MV. 2012. Identi cation of acquired antimicrobial resistance genes. J Antimicrob Chemother 67:2640  2644. https://doi .org/10.1093/jac/dks261.  Volume 8 Issue 12 e01687-18  mra.asm.org 3",
+  "isolate_id": "NA",
+  "isolate_source": "Blood, Stool, Urine, Gallbladder, Subhepatic aspirate",
+  "isolate_date": [
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+  ],
+  "isolate_country": "USA: Minnesota",
+  "serotype": [
+    "Schwarzengrund"
+  ],
+  "mlst": "NA",
+  "ast_data": [
+    {
+      "serotype": "Schwarzengrund",
+      "antibiotics": [
+        {
+          "name": "fluoroquinolones",
+          "mic": "NA",
+          "interpretation": "High level of resistance"
+        },
+        {
+          "name": "beta-lactamase",
+          "mic": "NA",
+          "interpretation": "Production of extended spectrum beta-lactamase (ESBL) including carbapenemase (KPC-2)"
+        }
+      ]
+    }
+  ],
+  "spi": "NA",
+  "amr": [
+    "aph(6)-Id",
+    "strA",
+    "tet(B)",
+    "aph(3)-Ia",
+    "blaCMY-2",
+    "aac(3)-VIa",
+    "aadA1",
+    "sul1"
+  ],
+  "plasmid": [
+    "IncHI2",
+    "IncHI2A",
+    "IncI1"
+  ],
+  "snp": "NA",
+  "virulence genes": "NA",
+  "accession numbers": [
+    "qzet00000000[WGS]",
+    "qzes00000000[WGS]",
+    "qzer00000000[WGS]",
+    "qzeq00000000[WGS]",
+    "qzep00000000[WGS]",
+    "qzeo00000000[WGS]",
+    "qzen00000000[WGS]",
+    "QZEM00000000[WGS]",
+    "qzel00000000[WGS]",
+    "QZEK00000000[WGS]",
+    "qzfd00000000[WGS]",
+    "QZFE00000000[WGS]",
+    "qzff00000000[WGS]",
+    "QZFG00000000[WGS]",
+    "qzmp00000000[WGS]",
+    "qzfh00000000[WGS]",
+    "qzfi00000000[WGS]",
+    "qzfj00000000[WGS]",
+    "QZFK00000000[WGS]",
+    "QZFL00000000[WGS]",
+    "QZFM00000000[WGS]",
+    "qzmq00000000[WGS]",
+    "qzfn00000000[WGS]",
+    "qzmr00000000[WGS]",
+    "qzfo00000000[WGS]",
+    "qzfp00000000[WGS]",
+    "qzfq00000000[WGS]",
+    "PRJNA312617[BioProject]"
+  ],
+  "final_cleaned_text": "Draft Genome Sequences of 27 Salmonella enterica Serovar Schwarzengrund Isolates from Clinical Sources  Bijay K. Khajanchi,a Noah C. Yoskowitz,a,b Jing Han,a Xiong Wang,c Steven L. Foleya  aNational Center for Toxicological Research, U.S. Food and Drug Administration, Jefferson, Arkansas, USA bPennsylvania State University, University Park, Pennsylvania, USA cMinnesota Department of Health, Saint Paul, Minnesota, USA  ABSTRACT Twenty-seven Salmonella enterica serovar Schwarzengrund isolates from clinical sources were sequenced as part of a larger study to examine phenotypic and genotypic characteristics. The majority of the sequenced strains were isolated from human stool (n � 20) followed by urine (n � 3) and blood (n � 2). Four isolate sequences contained plasmids of known incompatibility groups.  Salmonella enterica serovar Schwarzengrund strains can cause salmonellosis in humans and infections in other animal species (1). The spread of multidrug-resistant  S. Schwarzengrund from imported food products to humans has been reported (1). S. Schwarzengrund strains isolated from imported food products have been found to display a high level of resistance to fluoroquinolones (2). Furthermore, the production of extended-spectrum �-lactamase (ESBL), including carbapenemase (KPC-2), by S. Schwarzengrund has been found in different countries, which concerns observers (3–5). ESBL genes are often encoded on plasmids (3, 4, 6), which can facilitate their rapid transfer among Gram-negative pathogens, and this has created a major public health concern. Therefore, monitoring antimicrobial resistance (AMR) dynamics and characterization of mobile genetic elements, including plasmids of S. Schwarzengrund isolated from domestic and imported foods, food animals, and humans, is important. In the present study, whole-genome sequencing analyses of S. Schwarzengrund isolates from clinical sources will facilitate the study of AMR and resistance transmission.  Twenty-seven S. Schwarzengrund isolates from clinical sources were collected from the Minnesota Department of Health (Saint Paul, MN) and sequenced at the Division of Microbiology, National Center for Toxicological Research, U.S. Food and Drug Administration (Jefferson, AR). Epidemiological information for these isolates is listed in Table 1.  Stool samples were plated on Hektoen enteric agar, salmonella-shigella agar, and enrichment broths (Becton, Dickinson and Company [BD], Franklin Lakes, NJ). The plate or broth was then incubated at 35°C for 18 to 24 h. Colonies that were suspiciously lactose negative and positive for H2S were subsequently inoculated in motility-indolelysine agar, triple sugar iron agar, and a urea agar plate (BD). Identification was confirmed using matrix-assisted laser desorption ionization–time of flight mass (MALDITOF) spectrometry. Likewise, blood and other clinical isolates were identified using standard microbiological procedures.  The total bacterial DNA was extracted with a DNeasy blood and tissue kit (Qiagen, Valencia, CA), and DNA sequencing libraries were constructed with the Nextera XT DNA library preparation kit (Illumina, San Diego, CA). Samples were multiplexed with a unique combination of two indexes of the Nextera XT index kit. Whole-genome sequencing (WGS) reactions were carried out on an Illumina MiSeq instrument with a 2 � 300 paired-end format (7). Trimming and de novo assembly were performed with  Citation Khajanchi BK, Yoskowitz NC, Han J, Wang X, Foley SL. 2019. Draft genome sequences of 27 Salmonella enterica serovar Schwarzengrund isolates from clinical sources. Microbiol Resour Announc 8:e01687-18.  Editor John J. Dennehy, Queens College  Copyright © 2019 Khajanchi et al. This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.  Address correspondence to Bijay K. Khajanchi, bijay.khajanchi@fda.hhs.gov.  Received 14 December 2018 Accepted 19 February 2019 Published 21 March 2019  GENOME SEQUENCES  crossm  Volume 8 Issue 12 e01687-18 mra.asm.org 1  mailto:bijay.khajanchi@fda.hhs.gov   CLC Genomics Workbench (v. 9, Qiagen, Germantown, MD). Genome sequences from individual samples were examined simultaneously with individual annotation tools, such as Rapid Annotation using Subsystem Technology (RAST) (8) and Pathosystems Resource Integration Center (PATRIC) (9), to cross-examine the sequence data. Subsequently, sequences were submitted to the NCBI using the WGS submission portal for final annotation with the Prokaryotic Genome Automatic Annotation Pipeline (PGAAP) (10) (Table 1). The number of contigs, assembly size, coding sequences (CDSs), and G�C contents of each sample included in Table 1 were annotated with PATRIC. Annotation performed with the PGAAP was used as the final annotation available in the NCBI. We applied default settings for the bioinformatic software tools used for sequence trimming, de novo assembly, and annotation of the sequences.  Among 27 S. Schwarzengrund clinical isolates, PlasmidFinder (11) analyses showed that four of the isolates contained plasmids of identified incompatibility (Inc) groups. MDH-8 contained the IncHI2 and IncHI2A plasmids, and MDH-18, MDH-20, and MDH-25 contained the IncI1 plasmid. ResFinder (12) analyses showed that MDH-8 contained the aph(6)-Id, strA, and tet(B) resistance genes; MDH-18 and MDH-20 contained the aph(3=)-Ia and blaCMY-2 genes; and MDH-25 contained the aac(3)-VIa, aadA1, and sul1 genes.  Data availability. This whole-genome shotgun project is deposited at DDBJ/ENA/ GenBank under the accession numbers listed in Table 1, and the SRA submission of raw data (FastQ format) is recorded under the accession number PRJNA312617.  ",
+  "accession numbers_merge": "['QZFI00000000[WGS]', 'QZFO00000000[WGS]', 'QZEN00000000[WGS]', 'QZFP00000000[WGS]', 'QZFN00000000[WGS]', 'QZFK00000000[WGS]', 'QZEL00000000[WGS]', 'QZET00000000[WGS]', 'QZES00000000[WGS]', 'QZEM00000000[WGS]', 'QZFF00000000[WGS]', 'QZFJ00000000[WGS]', 'QZFD00000000[WGS]', 'QZEO00000000[WGS]', 'QZMQ00000000[WGS]', 'QZEP00000000[WGS]', 'QZEQ00000000[WGS]', 'QZEK00000000[WGS]', 'QZFM00000000[WGS]', 'QZFL00000000[WGS]', 'QZMR00000000[WGS]', 'QZER00000000[WGS]', 'PRJNA312617[BioProject]', 'QZMP00000000[WGS]', 'QZFQ00000000[WGS]', 'QZFE00000000[WGS]', 'QZFH00000000[WGS]', 'QZFG00000000[WGS]']",
+  "location": {
+    "lat": 45.9896587,
+    "lon": -94.6113288
+  },
+  "countryname": "United States of America (the)"
+}

@@ -1,0 +1,88 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="{% static 'css/enquiry.css' %}">
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-container">
+        <a class="nav-link" href="#">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Links</button>
+            <div class="dropdown-content">
+                <a href="{% url 'esearch:search_view' %}">Home</a>
+                <a href="{% url 'esearch:enquiry' %}">Enquiry</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="results-container">
+        {% if results %}
+            <h2>Search Results:</h2>
+            {% for result in results %}
+                <div class="result-item">
+                    <div><strong>{{ forloop.counter }}.</strong></div>
+                    <div><strong>Title:</strong> {{ result.title }}</div>
+                    <div>
+                        <strong>Description:</strong>
+                        <span class="short-text">{{ result.clean_text|truncatewords:30 }}</span>
+                        <span class="full-text hidden">{{ result.clean_text }}</span>
+                        <button onclick="toggleText(this)">Read More</button>
+                    </div>
+                    <div><strong>PMC ID:</strong> {{ result.pmcid }}</div>
+                    <div><strong>Abstract:</strong> {{ result.abstract }}</div>
+                    <div><strong>Url:</strong> {{ result.url }}</div>
+                    <div><strong>Publication Country:</strong> {{ result.pub_country }}</div>
+                    <div><strong>Publication Year:</strong> {{ result.pub_year }}</div>
+                    <div><strong>DOI:</strong> {{ result.doi }}</div>
+                    <div><strong>Case:</strong> {{ result.case }}</div>
+                    <div><strong>Keywords:</strong> {{ result.keywords }}</div>
+                    <div><strong>ID:</strong> {{ result.id }}</div>
+                    <div><strong>Source:</strong> {{ result.source }}</div>
+                    <div><strong>Date:</strong> {{ result.date }}</div>
+                    <div><strong>Country:</strong> {{ result.country }}</div>
+                    <div><strong>Brand:</strong> {{ result.brand }}</div>
+                    <div><strong>Serotype:</strong> {{ result.serotype }}</div>
+                    <div><strong>MLST:</strong> {{ result.mlst }}</div>
+                    <div><strong>AST:</strong><pre> {{ result.ast }}</pre></div>
+                    <div><strong>SPI:</strong> {{ result.spi }}</div>
+                    <div><strong>AMR:</strong> {{ result.amr }}</div>
+                    <div><strong>Plasmid:</strong> {{ result.plasmid }}</div>
+                    <div><strong>SNP:</strong> {{ result.snp }}</div>
+                    <div><strong>Virulence Genes:</strong> {{ result.virulence_genes }}</div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="no-results">
+                <p>No results found.</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+    function toggleText(button) {
+        var shortText = button.previousElementSibling.previousElementSibling;
+        var fullText = button.previousElementSibling;
+        
+        if (shortText.classList.contains('hidden')) {
+            shortText.classList.remove('hidden');
+            fullText.classList.add('hidden');
+            button.textContent = 'Read More';
+        } else {
+            shortText.classList.add('hidden');
+            fullText.classList.remove('hidden');
+            button.textContent = 'Read Less';
+        }
+    }
+</script>
+
+</body>
+</html>

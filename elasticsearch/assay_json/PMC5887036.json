@@ -1,0 +1,101 @@
+{
+  "pmid": 29622609.0,
+  "pmcid": "PMC5887036",
+  "title": "Draft Genome Sequences of Salmonella enterica Serovar Enteritidis and Kentucky Isolates from Retail Poultry Sources.",
+  "abstract": "The draft genome sequences of four Salmonella enterica serovar Enteritidis and Kentucky isolates were evaluated for biofilm formation and antibiotic resistance. The Salmonella serovar Kentucky strains CFS84 and CFS85 and Salmonella serovar Enteritidis strains CFS86 and CFS87 were isolated from retail poultry sources in Arkansas.",
+  "authors": "['Shi, Zhaohao', 'Kaldhone, Pravin R.', 'Khajanchi, Bijay K.', 'Foley, Steven L.', 'Ricke, Steven C.']",
+  "journal": "Genome Announc",
+  "year": "2018 Apr",
+  "source": "Genome Announc. 2018 Apr 5;6(14):. doi:10.1128/genomeA.00193-18.",
+  "country": "US",
+  "url": "ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_package/72/d7/PMC5887036.tar.gz",
+  "doi": "10.1128/genomeA.00193-18",
+  "key_words": null,
+  "filename": "PMC5887036/e00193-18.pdf",
+  "clean_text": "PROKARYOTES  crossm  Draft Genome Sequences of Salmonella enterica Serovar Enteritidis and Kentucky Isolates from Retail Poultry Sources  Zhaohao Shi,a Pravin R. Kaldhone,a,b Bijay K. Khajanchi,b Steven L. Foley,b Steven C. Rickea  aCenter for Food Safety and Food Science Department, University of Arkansas, Fayetteville, Arkansas, USA  bDivision of Microbiology, National Center for Toxicological Research, U.S. Food and Drug Administration, Jefferson, Arkansas, USA  ABSTRACT The draft genome sequences of four Salmonella enterica serovar Enteritidis and Kentucky isolates were evaluated for bio lm formation and antibiotic resistance. The Salmonella serovar Kentucky strains CFS84 and CFS85 and Salmonella serovar Enteritidis strains CFS86 and CFS87 were isolated from retail poultry sources in Arkansas.  Salmonella enterica remains one of the most common foodborne pathogens causing  illnesses leading to numerous hospitalizations and causing millions of dollars in health care costs and productivity losses (1, 2). Within the food industry, Salmonella spp. have been shown to possess the ability to form bio lms on processing equipment (3, 4). This ability can confer resistance to disinfection and allow bacteria to persist over time and serve as a reservoir for future contamination (5). Salmonella enterica serovar Enteritidis is one of the primary serovars associated with human illnesses in the United States and is often associated with the consumption of contaminated poultry products (6). S. enterica serovar Kentucky has been identi ed as one of the more commonly isolated serovars from poultry production and often possesses a multidrug resistance phenotype (6). Although S. Kentucky has been af liated with fewer hospitalizations than other Salmonella serovars, it has demonstrated the ability to obtain and spread plasmids that contribute to increased virulence and colonization in poultry (7). These abilities could become problematic if the strains are allowed to persist in processing and storage environments.  Four strains of S. enterica isolated from retail poultry carcasses from Arkansas were sequenced (Table 1) (8). Of these, two (CFS84 and CFS85) belonged to serovar Kentucky and two to serovar Enteritidis (CFS86 and CFS87). Phenotypic testing of the S. Enteritidis strains showed wild-type morphologies and bio lm growth, while the S. Kentucky strains exhibited morphologies and growth associated with increased extracellular matrix component production (our unpublished data). All strains were previously found to exhibit resistance to multiple antimicrobial agents, with each strain showing resistance to sul soxazole and novobiocin. Strain CFS84 demonstrated additional resistance to neomycin, and CFS86 encoded resistance to ampicillin and nalidixic acid as well. Both S. Kentucky strains were detected to carry plasmids identi ed as incompatibility type I1 (IncI1), while both S. Enteritidis strains carried IncFIIA plasmids (8). Analysis of the genome sequences may be useful in identifying mitigation strategies to control Salmonella spp. found in retail environments.  To carry out whole-genome sequencing, total bacterial DNA was extracted using a DNeasy blood and tissue kit (Qiagen, Valencia, CA, USA). DNA libraries were constructed using the Nextera XT DNA sample kits (Illumina, San Diego, CA, USA). Sequencing reactions were carried out on an Illumina MiSeq instrument to generate 2 (cid:2) 300 paired-end reads (9). Trimming and de novo assembly were performed using CLC Genomics Workbench version 9 (Qiagen, Germantown, MD, USA). Annotation of the  Received 14 February 2018 Accepted 27 February 2018 Published 5 April 2018  Citation Shi Z, Kaldhone PR, Khanjanchi BK, Foley SL, Ricke SC. 2018. Draft genome sequences of Salmonella enterica serovar Enteritidis and Kentucky isolates from retail poultry sources. Genome Announc 6:e00193-18. https://doi.org/10.1128/genomeA .00193-18.  This is a work of the U.S. Government and is not subject to copyright protection in the United States. Foreign copyrights may apply.  Address correspondence to Steven C. Ricke, sricke@uark.edu.  Volume 6 Issue 14 e00193-18  genomea.asm.org 1  Shi et al.  TABLE 1 Summary of the genome sequence analyses of Salmonella enterica strains from poultry in Arkansas  Strain CFS84 CFS85 CFS86 CFS87  Serovar Kentucky Kentucky Enteritidis Enteritidis  aCDSs, coding sequences.  No. of contigs 232 151 128 95  Assembly size (bp) 4,935,761 4,908,583 4,665,166 4,656,278  G(cid:2)C content (%) 51.99 51.98 52.13 52.14  No. of CDSsa 5,081 4,987 4,724 4,705  No. of functional proteins 4,293 4,230 4,159 4,136  GenBank accession no. PHUN00000000 PHUO00000000 PHUP00000000 PIJU00000000  draft genomes was done using Rapid Annotations using Subsystems Technology (RAST) (10), Pathosystems Resource Integration Center (PATRIC) (11), and the NCBI Prokaryotic Genome Automatic Annotation Pipeline (PGAAP) (12) (Table 1). Table 1 lists the numbers of contigs, predicted coding sequences, and functional proteins, as well as the G(cid:3)C content for each of the sequenced strains.  Accession number(s). This whole-genome shotgun project has been deposited at  DDBJ/ENA/GenBank under the accession numbers listed in Table 1.  ACKNOWLEDGMENTS  We thank Carl Cerniglia, Jing Han, and Ashraf Khan for their insightful review and  critique of the manuscript.  Pravin R. Kaldhone s graduate assistantship was provided by the Center for Advanced Surface Engineering, under the National Science Foundation grant OIA-1457888 and the Arkansas EPSCoR Program, ASSET III.  The information in this paper is not a formal dissemination of information by the FDA and does not represent agency position or policy. Reference to any commercial material, equipment, or process does not in any way constitute approval, endorsement, or recommendation by the Food and Drug Administration.  REFERENCES 1. Scallan E, Hoekstra RM, Angulo FJ, Tauxe RV, Widdowson MA, Roy SL, Jones JL, Grif n PM. 2011. Foodborne illnesses acquired in the United States major pathogens. Emerg Infect Dis 17:7 15. https://doi.org/ 10.3201/eid1701.P11101.  2. Minor T, Lasher A, Klontz K, Brown B, Nardinelli C, Zorn D. 2015. The per case and total annual costs of foodborne illness in the United States. Risk Anal 35:1125 1139. https://doi.org/10.1111/risa.12316.  3. Arnold JW, Silvers S. 2000. Comparison of poultry processing equipment surfaces for susceptibility to bacterial attachment and bio lm formation. Poult Sci 79:1215 1221. https://doi.org/10.1093/ps/79.8.1215.  4. Chia TWR, Goulter RM, McMeekin T, Dykes GA, Fegan N. 2009. Attachment of different Salmonella serovars to materials commonly used in a poultry processing plant. Food Microbiol 26:853  859. https://doi.org/10 .1016/j.fm.2009.05.012.  5. Vestby LK, M retr  T, Langsrud S, Heir E, Nesse LL. 2009. Bio lm forming abilities of Salmonella are correlated with persistence in  sh meal-and feed factories. BMC Vet Res 5:20. https://doi.org/10.1186/1746-6148 -5-20.  6. Foley SL, Nayak R, Hanning IB, Johnson TJ, Han J, Ricke SC. 2011. Population dynamics of Salmonella enterica serotypes in commercial egg and poultry production. Appl Environ Microbiol 77:4273  4279. https:// doi.org/10.1128/AEM.00598-11.  7. Johnson TJ, Thorsness JL, Anderson CP, Lynne AM, Foley SL, Han J, Fricke WF, McDermott PF, White DG, Khatri M, Stell AL, Flores C, Singer RS. 2010. Horizontal gene transfer has resulted in a dominant avian clonal type of Salmonella enterica serovar Kentucky. PLoS One 5:e15524. https:// doi.org/10.1371/journal.pone.0015524.  8. Melendez SN, Hanning I, Han J, Nayak R, Clement AR, Wooming A, Hererra P, Jones FT, Foley SL, Ricke SC. 2010. Salmonella enterica isolates from pasture(cid:2)raised poultry exhibit antimicrobial resistance and class I integrons. J Appl Microbiol 109:1957 1966. https://doi.org/10.1111/j .1365-2672.2010.04825.x.  9. Khajanchi BK, Han J, Gokulan K, Zhao S, Gies A, Foley SL. 2016. Draft genome sequences of four Salmonella enterica strains isolated from turkey associated sources. Genome Announc 4:e01122-16. https://doi .org/10.1128/genomeA.01122-16.  10. Aziz RK, Bartels D, Best AA, DeJongh M, Disz T, Edwards RA, Formsma K, Gerdes S, Glass EM, Kubal M, Meyer F, Olsen GJ, Olson R, Osterman AL, Overbeek RA, McNeil LK, Paarmann D, Paczian T, Parrello B, Pusch GD, Reich C, Stevens R, Vassieva O, Vonstein V, Wilke A, Zagnitko O. 2008. The RAST server: Rapid Annotations using Subsystems Technology. BMC Genomics 9:75. https://doi.org/10.1186/1471-2164-9-75.  11. Wattam AR, Abraham D, Dalay O, Disz TL, Driscoll T, Gabbard JL, Gillespie JJ, Gough R, Hix D, Kenyon R, Machi D, Mao C, Nordberg EK, Olson R, Overbeek R, Pusch GD, Shukla M, Schulman J, Stevens RL, Sullivan DE, Vonstein V, Warren A, Will R, Wilson MJ, Yoo HS, Zhang C, Zhang Y, Sobral BW. 2014. PATRIC, the bacterial bioinformatics database and analysis resource. Nucleic Acids Res 42:D581 D591. https://doi.org/10 .1093/nar/gkt1099.  12. Angiuoli SV, Gussman A, Klimke W, Cochrane G, Field D, Garrity G, Kodira CD, Kyrpides N, Madupu R, Markowitz V, Tatusova T, Thomson N, White O. 2008. Toward an online repository of standard operating procedures (SOPs) for (Meta)genomic annotation. Omics 12:137 141. https://doi .org/10.1089/omi.2008.0017.  Volume 6 Issue 14 e00193-18  genomea.asm.org 2",
+  "isolate_id": "CFS84, CFS85, CFS86, CFS87",
+  "isolate_source": "retail poultry sources",
+  "isolate_date": [
+    "1900"
+  ],
+  "isolate_country": "USA: Arkansas",
+  "serotype": [
+    "Kentucky",
+    "Enteritidis"
+  ],
+  "mlst": "NA",
+  "ast_data": [
+    {
+      "serotype": "Kentucky",
+      "antibiotics": [
+        {
+          "name": "sulfisoxazole",
+          "mic": "NA",
+          "interpretation": "R"
+        },
+        {
+          "name": "novobiocin",
+          "mic": "NA",
+          "interpretation": "R"
+        },
+        {
+          "name": "neomycin",
+          "mic": "NA",
+          "interpretation": "R"
+        }
+      ]
+    },
+    {
+      "serotype": "Enteritidis",
+      "antibiotics": [
+        {
+          "name": "sulfisoxazole",
+          "mic": "NA",
+          "interpretation": "R"
+        },
+        {
+          "name": "novobiocin",
+          "mic": "NA",
+          "interpretation": "R"
+        },
+        {
+          "name": "ampicillin",
+          "mic": "NA",
+          "interpretation": "R"
+        },
+        {
+          "name": "nalidixic acid",
+          "mic": "NA",
+          "interpretation": "R"
+        }
+      ]
+    }
+  ],
+  "spi": "NA",
+  "amr": [
+    "AMP",
+    "NEO",
+    "NAL",
+    "SXT",
+    "NOV"
+  ],
+  "plasmid": [
+    "IncI1",
+    "IncFIIA"
+  ],
+  "snp": "NA",
+  "virulence genes": "NA",
+  "accession numbers": [
+    "phun00000000[WGS]",
+    "phuo00000000[WGS]",
+    "phup00000000[WGS]",
+    "PIJU00000000[WGS]"
+  ],
+  "final_cleaned_text": "Draft Genome Sequences of Salmonella enterica Serovar Enteritidis and Kentucky Isolates from Retail Poultry Sources  Zhaohao Shi,a Pravin R. Kaldhone,a,b Bijay K. Khajanchi,b Steven L. Foley,b Steven C. Rickea  aCenter for Food Safety and Food Science Department, University of Arkansas, Fayetteville, Arkansas, USA bDivision of Microbiology, National Center for Toxicological Research, U.S. Food and Drug Administration, Jefferson, Arkansas, USA  ABSTRACT The draft genome sequences of four Salmonella enterica serovar Enteritidis and Kentucky isolates were evaluated for biofilm formation and antibiotic resistance. The Salmonella serovar Kentucky strains CFS84 and CFS85 and Salmonella serovar Enteritidis strains CFS86 and CFS87 were isolated from retail poultry sources in Arkansas.  Salmonella enterica remains one of the most common foodborne pathogens causing illnesses leading to numerous hospitalizations and causing millions of dollars in  health care costs and productivity losses (1, 2). Within the food industry, Salmonella spp. have been shown to possess the ability to form biofilms on processing equipment (3, 4). This ability can confer resistance to disinfection and allow bacteria to persist over time and serve as a reservoir for future contamination (5). Salmonella enterica serovar Enteritidis is one of the primary serovars associated with human illnesses in the United States and is often associated with the consumption of contaminated poultry products (6). S. enterica serovar Kentucky has been identified as one of the more commonly isolated serovars from poultry production and often possesses a multidrug resistance phenotype (6). Although S. Kentucky has been affiliated with fewer hospitalizations than other Salmonella serovars, it has demonstrated the ability to obtain and spread plasmids that contribute to increased virulence and colonization in poultry (7). These abilities could become problematic if the strains are allowed to persist in processing and storage environments.  Four strains of S. enterica isolated from retail poultry carcasses from Arkansas were sequenced (Table 1) (8). Of these, two (CFS84 and CFS85) belonged to serovar Kentucky and two to serovar Enteritidis (CFS86 and CFS87). Phenotypic testing of the S. Enteritidis strains showed wild-type morphologies and biofilm growth, while the S. Kentucky strains exhibited morphologies and growth associated with increased extracellular matrix component production (our unpublished data). All strains were previously found to exhibit resistance to multiple antimicrobial agents, with each strain showing resistance to sulfisoxazole and novobiocin. Strain CFS84 demonstrated additional resistance to neomycin, and CFS86 encoded resistance to ampicillin and nalidixic acid as well. Both S. Kentucky strains were detected to carry plasmids identified as incompatibility type I1 (IncI1), while both S. Enteritidis strains carried IncFIIA plasmids (8). Analysis of the genome sequences may be useful in identifying mitigation strategies to control Salmonella spp. found in retail environments.  To carry out whole-genome sequencing, total bacterial DNA was extracted using a DNeasy blood and tissue kit (Qiagen, Valencia, CA, USA). DNA libraries were constructed using the Nextera XT DNA sample kits (Illumina, San Diego, CA, USA). Sequencing reactions were carried out on an Illumina MiSeq instrument to generate 2 � 300 paired-end reads (9). Trimming and de novo assembly were performed using CLC Genomics Workbench version 9 (Qiagen, Germantown, MD, USA). Annotation of the  Received 14 February 2018 Accepted 27 February 2018 Published 5 April 2018  Citation Shi Z, Kaldhone PR, Khanjanchi BK, Foley SL, Ricke SC. 2018. Draft genome sequences of Salmonella enterica serovar Enteritidis and Kentucky isolates from retail poultry sources. Genome Announc .00193-18.  This is a work of the U.S. Government and is not subject to copyright protection in the United States. Foreign copyrights may apply.  Address correspondence to Steven C. Ricke, sricke@uark.edu.  PROKARYOTES  crossm  Volume 6 Issue 14 e00193-18 genomea.asm.org 1  mailto:sricke@uark.edu   draft genomes was done using Rapid Annotations using Subsystems Technology (RAST) (10), Pathosystems Resource Integration Center (PATRIC) (11), and the NCBI Prokaryotic Genome Automatic Annotation Pipeline (PGAAP) (12) (Table 1). Table 1 lists the numbers of contigs, predicted coding sequences, and functional proteins, as well as the G�C content for each of the sequenced strains.  Accession number(s). This whole-genome shotgun project has been deposited at  DDBJ/ENA/GenBank under the accession numbers listed in Table 1.  ",
+  "accession numbers_merge": "['PIJU00000000[WGS]', 'PHUP00000000[WGS]', 'PHUO00000000[WGS]', 'PHUN00000000[WGS]']",
+  "location": {
+    "lat": 35.2048883,
+    "lon": -92.4479108
+  },
+  "countryname": "United States of America (the)"
+}

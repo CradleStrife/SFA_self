@@ -1,0 +1,20 @@
+{ "index": { "_index": "your_index_name", "_id": "1" } }
+{ "name": "John Smith", "age": "38" }
+{ "index": { "_index": "your_index_name", "_id": "2" } }
+{ "name": "Jane Doe", "age": "27" }
+{ "index": { "_index": "your_index_name", "_id": "3" } }
+{ "name": "Alice Johnson", "age": "35" }
+{ "index": { "_index": "your_index_name", "_id": "4" } }
+{ "name": "Bob Brown", "age": "45" }
+{ "index": { "_index": "your_index_name", "_id": "5" } }
+{ "name": "Charlie Black", "age": "32" }
+{ "index": { "_index": "your_index_name", "_id": "6" } }
+{ "name": "Diana White", "age": "29" }
+{ "index": { "_index": "your_index_name", "_id": "7" } }
+{ "name": "Eve Green", "age": "41" }
+{ "index": { "_index": "your_index_name", "_id": "8" } }
+{ "name": "Frank Blue", "age": "50" }
+{ "index": { "_index": "your_index_name", "_id": "9" } }
+{ "name": "Grace Gold", "age": "22" }
+{ "index": { "_index": "your_index_name", "_id": "10" } }
+{ "name": "Hank Silver", "age": "48" }

@@ -1,0 +1,166 @@
+services:
+  eureka-server: 
+    build: ./eureka-server/demo
+    ports:
+      - "8761:8761"
+    networks:
+      - eureka-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://eureka-server:8761"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    networks:
+      - eureka-network
+  
+  celery:
+    build: ./django/scripts/searchtest
+    command: celery -A searchtest worker --loglevel=info
+    volumes:
+      - ./django/scripts/searchtest:/app
+    depends_on:
+      - django
+      - redis
+    networks:
+      - eureka-network
+
+  celery_beat:
+    build: ./django/scripts/searchtest
+    command: celery -A searchtest beat --loglevel=info
+    volumes:
+      - ./django/scripts/searchtest:/app
+    depends_on:
+      - django
+      - redis
+    networks:
+      - eureka-network
+
+  django:
+    build: ./django/scripts/searchtest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./django/scripts/searchtest:/app
+    environment:
+      - EUREKA_SERVER
+      - EUREKA_APP_NAME
+      - EUREKA_INSTANCE_PORT
+      - EUREKA_HOST
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - CORS_ALLOWED_ORIGINS=http://localhost:5173,http://vue:5173
+      - INDEX_NAME=local
+    networks:
+      - eureka-network
+    depends_on:
+      - elasticsearch
+
+
+  vue:
+    build: ./vue
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./vue:/app
+      - ./vue/node_modules:/app/node_modules
+      - ./vue/src:/app/src
+    env_file:
+      - ./vue/.env.docker
+    depends_on:
+      - django
+    networks:
+      - eureka-network
+
+
+  elasticsearch:
+    build: ./elasticsearch
+    environment:
+      - cluster.name=sfa_local
+      - node.name=node-1
+      - discovery.seed_hosts=elasticsearch,elasticsearch2
+      - cluster.initial_master_nodes=node-1,node-2
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+      - ES_HOST=10.84.86.100
+      - ES_PORT=9200
+      - INDEX_NAME=local
+      - EUREKA_SERVER=http://eureka-server:8761/eureka/
+      - SPRING_APPLICATION_NAME=elasticsearch
+      - SERVER_PORT=8080
+      - CURRENT_HOST
+      - Server
+    ports:
+      - "9200:9200"
+    volumes:
+      - /d/Workspace/SFAWorkspace/SFAY2S2/elasticsearch/data:/usr/share/elasticsearch/data
+      - ./elasticsearch/scripts:/usr/share/elasticsearch/scripts  # Mount local scripts
+      - ./elasticsearch/output_json:/usr/share/elasticsearch/output_json  # Mount output JSON data
+      - ./elasticsearch/assay_json:/usr/share/elasticsearch/assay_json 
+    networks:
+      - eureka-network
+
+  elasticsearch2:
+    build: ./elasticsearch
+    environment:
+      - cluster.name=sfa_local
+      - node.name=node-2
+      - discovery.seed_hosts=elasticsearch,elasticsearch2
+      - cluster.initial_master_nodes=node-1,node-2
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+      - ES_HOST=10.84.86.100
+      - ES_PORT=9201
+      - INDEX_NAME=local
+      - EUREKA_SERVER=http://eureka-server:8761/eureka/
+      - SPRING_APPLICATION_NAME=elasticsearch2
+      - SERVER_PORT=8081
+      - CURRENT_HOST
+      - Server
+      - http.port=9201
+    ports:
+      - "9201:9201"
+    volumes:
+      - /d/Workspace/SFAWorkspace/SFAY2S2/elasticsearch/data2:/usr/share/elasticsearch/data
+    networks:
+      - eureka-network
+
+  
+  monitoring_dj:
+    build: ./monitoring/Mdjango
+    environment:
+      - CURRENT_HOST
+      - PYTHONUNBUFFERED=1  
+    depends_on:
+      - django
+      - eureka-server
+    networks:
+      - eureka-network
+
+  monitoring_es:
+    build: ./monitoring/Melasticsearch
+    environment:
+      - CURRENT_HOST
+      - PYTHONUNBUFFERED=1  # Disable output buffering
+    depends_on:
+      - elasticsearch
+      - eureka-server
+    networks:
+      - eureka-network 
+
+  # kibana:
+  #   image: docker.elastic.co/kibana/kibana:8.13.4
+  #   container_name: kibana
+  #   ports:
+  #     - "5601:5601"
+  #   environment:
+  #     - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+  #   networks:
+  #     - eureka-network
+
+networks:
+  eureka-network:
+    driver: bridge

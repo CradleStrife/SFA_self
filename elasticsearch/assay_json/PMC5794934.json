@@ -1,0 +1,78 @@
+{
+  "pmid": 29437087.0,
+  "pmcid": "PMC5794934",
+  "title": "Draft Genome Sequences of 11 Salmonella enterica Serovar Typhimurium Strains Isolated from Human Systemic and Nonsystemic Sites in Brazil.",
+  "abstract": "Salmonella enterica serovar Typhimurium strains isolated from systemic sites outside sub-Saharan Africa have been rarely sequenced. Here, we report the draft genome sequences of S.Â Typhimurium sequence type 19 (ST19) (n = 9), ST1649 (n = 1), and ST313 (n = 1) strains isolated from human systemic (e.g., blood) and nonsystemic (e.g., stool and wounds) sites in Brazil.",
+  "authors": "['Panzenhagen, Pedro Henrique N.', 'Paul, Narayan C.', 'Conte Junior, Carlos A.', 'Costa, Renata G.', 'Rodrigues, DÃ¡lia P.', 'Shah, Devendra H.']",
+  "journal": "Genome Announc",
+  "year": "2018 Feb",
+  "source": "Genome Announc. 2018 Feb 1;6(5):. doi:10.1128/genomeA.01223-17.",
+  "country": "US",
+  "url": "ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_package/f6/32/PMC5794934.tar.gz",
+  "doi": "10.1128/genomeA.01223-17",
+  "key_words": null,
+  "filename": "PMC5794934/e01223-17.pdf",
+  "clean_text": "PROKARYOTES  crossm  Draft Genome Sequences of 11 Salmonella enterica Serovar Typhimurium Strains Isolated from Human Systemic and Nonsystemic Sites in Brazil  Pedro Henrique N. Panzenhagen,a,b Narayan C. Paul,a Carlos A. Conte Junior,b,d,e Renata G. Costa,cD lia P. Rodrigues,c Devendra H. Shaha  aDepartment of Veterinary Microbiology and Pathology, Washington State University, Pullman, Washington, USA  bFood Science Program, Chemistry Institute, University Federal of Rio de Janeiro, Rio de Janeiro, Brazil  cNational Reference Laboratory for Diagnosis of Enteric Bacteria, Oswaldo Cruz Institute, Rio de Janeiro, Brazil  dNational Institute of Quality Control in Health, Oswaldo Cruz Foundation, Rio de Janeiro, Brazil  eDepartment of Food Technology, Faculty of Veterinary Medicine, Federal Fluminense University (UFF), Niter i, Brazil  ABSTRACT Salmonella enterica serovar Typhimurium strains isolated from systemic sites outside sub-Saharan Africa have been rarely sequenced. Here, we report the draft genome sequences of S. Typhimurium sequence type 19 (ST19) (n (cid:2) 9), ST1649 (n (cid:2) 1), and ST313 (n (cid:2) 1) strains isolated from human systemic (e.g., blood) and nonsystemic (e.g., stool and wounds) sites in Brazil.  Nontyphoidal Salmonella (NTS) is one of the major causes of diarrheal disease  worldwide, with an estimated 93 million enteric infections and 155,000 deaths annually (1). However, these estimates do not include the infections caused by invasive nontyphoidal Salmonella (iNTS) enterica serovar Typhimurium sequence type 313 (ST313), which is often associated with systemic infection. S. Typhimurium ST313 strains account for (cid:3)50% of the systemic infections in sub-Saharan Africa (2, 3). Two genetic lineages of S. Typhimurium ST313 have been linked with the emergence of iNTS across sub-Saharan Africa (4). In Brazil, S. Typhimurium is frequently isolated from systemic sites, such as blood and cerebrospinal  uid (CSF), from human patients (5, 6); however, the genetic underpinning of S. Typhimurium isolates recovered from systemic sites in Brazil remains unknown. We sequenced 11 S. Typhimurium strains isolated from blood (n (cid:2) 4), stool (n (cid:2) 4), and extraintestinal (n (cid:2) 3) sites between 2010 and 2014 from different geographic regions of Brazil (Table 1).  Paired-end sequencing libraries (2 (cid:4) 250 bp) were prepared using the Nextera XT kit (Illumina, San Diego, CA) following the protocol described in the DNA library reference guide (7), size selected to be in the range of 600 to 1,000 bp (average peaks, ~800 bp), and sequenced using the MiSeq Illumina version 2 kit, according to the manufacturer s instructions. The number of paired reads per sample ranged from 941,320 to 1,389,798. The average G(cid:5)C content was 52.5% (8). De novo assembly was performed using Velvet 1.2.10 set at default for all parameters (9). Contigs were organized by aligning to the genome sequence of the reference strain S. Typhimurium LT2 (accession no. NC_003197) using Mauve multiple alignments (10). Wholegenome multilocus sequence typing was performed using EnteroBase (https:// enterobase.warwick.ac.uk/). A total of three sequence types, ST19 (n (cid:2) 9), ST1695 (n (cid:2) 1), and ST313 (n (cid:2) 1), were identi ed. Detailed comparative genomics analysis of these strains is currently ongoing and will be published independently. These genome sequences will provide better insights into the molecular epidemiology of invasive S. Typhimurium strains in Brazil.  Received 28 September 2017 Accepted 19 December 2017 Published 1 February 2018  Citation Panzenhagen PHN, Paul NC, Conte Junior CA, Costa RG, Rodrigues DP, Shah DH. 2018. Draft genome sequences of 11 Salmonella enterica serovar Typhimurium strains isolated from human systemic and nonsystemic sites in Brazil. Genome Announc 6:e01223-17. https://doi.org/10.1128/genomeA .01223-17.  Copyright   2018 Panzenhagen et al. This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.  Address correspondence to Devendra H. Shah, dshah@vetmed.wsu.edu.  Volume 6 Issue 5 e01223-17  genomea.asm.org 1  Panzenhagen et al.  TABLE 1 GenBank accession numbers of Salmonella Typhimurium strains isolated from human clinical samples in Brazil  Strain PP_BR007 PP_BR026 PP_BR027 PP_BR031 PP_BR032 PP_BR045 PP_BR057 PP_BR060 PP_BR062 PP_BR063 PP_BR076  SRA accession no. SAMN05505504 SAMN05505503 SAMN05505502 SAMN05505501 SAMN05505500 SAMN05505499 SAMN05505498 SAMN05505496 SAMN05505495 SAMN05505494 SAMN05505493  WGS accession no.a NPJP00000000 NPJQ00000000 NPJR00000000 NPJS00000000 NPJT00000000 NPJU00000000 NRDL00000000 NPMT00000000 NRDM00000000 NRDN00000000 NSDQ00000000  No. of contigs 156 149 175 190 122 147 131 123 118 161 125  N50 (bp) 57,229 62,099 44,398 46,721 99,313 76,702 103,073 96,334 142,310 50,016 120,490  Length (bp) 4,632,574 4,777,031 4,626,743 4,594,320 4,650,556 4,827,606 4,787,663 4,776,943 4,958,705 4,365,189 5,065,902  Sourceb Blood Blood WS WS ABS RS Blood Feces Feces Blood Feces  Yr 2014 2012 2012 2012 2012 2011 2011 2011 2010 2010 2010  State Rio de Janeiro Rio Grande do Sul Rio Grande do Sul Rio Grande do Sul Rio Grande do Sul Santa Catarina Amap  Minas Gerais Santa Catarina Rio Grande do Sul Rio Grande do Sul  aWGS, whole-genome sequencing. bWS, wound secretion; ABS, abdominal abscess; RS, rectal swab.  Accession number(s). The draft genome sequences are available in GenBank under  the accession numbers listed in Table 1.  ACKNOWLEDGMENTS  We thank Li Zhen at the Washington Department of Health (WADOH) and Mark Allard at the FDA Center for Food Safety and Applied Nutrition (CFSAN) for sequencing the strains used in this study.  This research was funded by the Safe Food Initiative and Agricultural Animal Health Program at the Washington State University, Pullman, WA. Pedro Henrique N. Panzenhagen received scholarship support by the Doctoral Sandwich Abroad Program CAPES/ PDSE at the Federal University of Rio de Janeiro.  We declare no con icts of interest.  REFERENCES 1. WHO. 2016. Salmonella (non-typhoidal). World Health Organization, Geneva, Switzerland. http://www.who.int/mediacentre/factsheets/fs139/en/. 2. Ao TT, Feasey NA, Gordon MA, Keddy KH, Angulo FJ, Crump JA. 2015. Global burden of invasive nontyphoidal salmonella disease, 2010. Emerg Infect Dis 21:941 949. https://doi.org/10.3201/eid2106.140999  3. Reddy EA, Shaw AV, Crump JA. 2010. Community-acquired bloodstream infections in Africa: a systematic review and meta-analysis. Lancet Infect Dis 10:417  432. https://doi.org/10.1016/S1473-3099(10)70072-4.  4. Okoro CK, Barquist L, Connor TR, Harris SR, Clare S, Stevens MP, Arends MJ, Hale C, Kane L, Pickard DJ, Hill J, Harcourt K, Parkhill J, Dougan G, Kingsley RA. 2015. Signatures of adaptation in human invasive Salmonella Typhimurium ST313 populations from sub-Saharan Africa. PLoS Negl Trop Dis 9:e0003611. https://doi.org/10.1371/journal.pntd.0003611.  5. Fernandes SA, Tavechio AT, Ghilardi AC, Dias AM, Almeida IA, Melo LC. 2006. Salmonella serovars isolated from humans in So Paulo State, Brazil, 1996  2003. Rev Inst Med Trop Sao Paulo 48:179  184. https://doi .org/10.1590/S0036-46652006000400001  6. de Castro FA, dos Santos VR, Martins CHG, Fernandes SA, Zaia JE,  Martinez R. 2002. Prevalence and antimicrobial susceptibility of Salmonella serotypes in patients from Ribeir o Preto, So Paulo, Brazil, between 1985 and 1999. Braz J Infect Dis 6:244  251. https://doi.org/10 .1590/S1413-86702002000500005. Illumina. 2016. Nextera XT DNA library prep kit. Reference guide (15031942 v01). Illumina, San Diego, CA.  7.  8. McClelland M, Sanderson KE, Spieth J, Clifton SW, Latreille P, Courtney L, Porwollik S, Ali J, Dante M, Du F, Hou S, Layman D, Leonard S, Nguyen C, Scott K, Holmes A, Grewal N, Mulvaney E, Ryan E, Sun H, Florea L, Miller W, Stoneking T, Nhan M, Waterston R, Wilson RK. 2001. Complete genome sequence of Salmonella enterica serovar Typhimurium LT2. Nature 413:852  856. https://doi.org/10.1038/35101614.  9. Zerbino DR, Birney E. 2008. Velvet: algorithms for de novo short read assembly using de Bruijn graphs. Genome Res 18:821  829. https://doi .org/10.1101/gr.074492.107.  10. Darling ACE, Mau B, Blattner FR, Perna NT. 2004. Mauve: multiple alignment of conserved genomic sequence with rearrangements. Genome Res 14:1394  1403. https://doi.org/10.1101/gr.2289704.  Volume 6 Issue 5 e01223-17  genomea.asm.org 2",
+  "isolate_id": "NA",
+  "isolate_source": [
+    "Blood",
+    "Wound secretion",
+    "Abdominal abscess",
+    "Rectal swab",
+    "Feces"
+  ],
+  "isolate_date": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014"
+  ],
+  "isolate_country": "Brazil: Rio de Janeiro, Rio Grande do Sul, Santa Catarina, Amapa, Minas Gerais",
+  "serotype": [
+    "Salmonella enterica serovar Typhimurium"
+  ],
+  "mlst": [
+    "ST19",
+    "ST1649",
+    "ST313"
+  ],
+  "ast_data": [],
+  "spi": "NA",
+  "amr": "NA",
+  "plasmid": "NA",
+  "snp": "NA",
+  "virulence genes": "NA",
+  "accession numbers": [
+    "SAMN05505504[BioSample]",
+    "SAMN05505503[BioSample]",
+    "SAMN05505502[BioSample]",
+    "SAMN05505501[BioSample]",
+    "SAMN05505500[BioSample]",
+    "SAMN05505499[BioSample]",
+    "SAMN05505498[BioSample]",
+    "SAMN05505496[BioSample]",
+    "SAMN05505495[BioSample]",
+    "SAMN05505494[BioSample]",
+    "SAMN05505493[BioSample]",
+    "NPJP00000000[WGS]",
+    "NPJQ00000000[WGS]",
+    "NPJR00000000[WGS]",
+    "NPJS00000000[WGS]",
+    "NPJT00000000[WGS]",
+    "NPJU00000000[WGS]",
+    "NRDL00000000[WGS]",
+    "NPMT00000000[WGS]",
+    "NRDM00000000[WGS]",
+    "NRDN00000000[WGS]",
+    "NSDQ00000000[WGS]",
+    "NC_003197[WGS]"
+  ],
+  "final_cleaned_text": "Draft Genome Sequences of 11 Salmonella enterica Serovar Typhimurium Strains Isolated from Human Systemic and Nonsystemic Sites in Brazil  Pedro Henrique N. Panzenhagen,a,b Narayan C. Paul,a Carlos A. Conte Junior,b,d,e Renata G. Costa,c Dália P. Rodrigues,c  Devendra H. Shaha  aDepartment of Veterinary Microbiology and Pathology, Washington State University, Pullman, Washington, USA bFood Science Program, Chemistry Institute, University Federal of Rio de Janeiro, Rio de Janeiro, Brazil cNational Reference Laboratory for Diagnosis of Enteric Bacteria, Oswaldo Cruz Institute, Rio de Janeiro, Brazil dNational Institute of Quality Control in Health, Oswaldo Cruz Foundation, Rio de Janeiro, Brazil eDepartment of Food Technology, Faculty of Veterinary Medicine, Federal Fluminense University (UFF), Niterói, Brazil  ABSTRACT Salmonella enterica serovar Typhimurium strains isolated from systemic sites outside sub-Saharan Africa have been rarely sequenced. Here, we report the draft genome sequences of S. Typhimurium sequence type 19 (ST19) (n � 9), ST1649 (n � 1), and ST313 (n � 1) strains isolated from human systemic (e.g., blood) and nonsystemic (e.g., stool and wounds) sites in Brazil.  Nontyphoidal Salmonella (NTS) is one of the major causes of diarrheal disease worldwide, with an estimated 93 million enteric infections and 155,000 deaths  annually (1). However, these estimates do not include the infections caused by invasive nontyphoidal Salmonella (iNTS) enterica serovar Typhimurium sequence type 313 (ST313), which is often associated with systemic infection. S. Typhimurium ST313 strains account for �50% of the systemic infections in sub-Saharan Africa (2, 3). Two genetic lineages of S. Typhimurium ST313 have been linked with the emergence of iNTS across sub-Saharan Africa (4). In Brazil, S. Typhimurium is frequently isolated from systemic sites, such as blood and cerebrospinal fluid (CSF), from human patients (5, 6); however, the genetic underpinning of S. Typhimurium isolates recovered from systemic sites in Brazil remains unknown. We sequenced 11 S. Typhimurium strains isolated from blood (n � 4), stool (n � 4), and extraintestinal (n � 3) sites between 2010 and 2014 from different geographic regions of Brazil (Table 1).  Paired-end sequencing libraries (2 � 250 bp) were prepared using the Nextera XT kit (Illumina, San Diego, CA) following the protocol described in the DNA library reference guide (7), size selected to be in the range of 600 to 1,000 bp (average peaks, ~800 bp), and sequenced using the MiSeq Illumina version 2 kit, according to the manufacturer’s instructions. The number of paired reads per sample ranged from 941,320 to 1,389,798. The average G�C content was 52.5% (8). De novo assembly was performed using Velvet 1.2.10 set at default for all parameters (9). Contigs were organized by aligning to the genome sequence of the reference strain S. Typhimurium LT2 (accession no. NC_003197) using Mauve multiple alignments (10). Wholeenterobase.warwick.ac.uk/). A total of three sequence types, ST19 (n � 9), ST1695 (n �  1), and ST313 (n � 1), were identified. Detailed comparative genomics analysis of these strains is currently ongoing and will be published independently. These genome sequences will provide better insights into the molecular epidemiology of invasive S. Typhimurium strains in Brazil.  Received 28 September 2017 Accepted 19 December 2017 Published 1 February 2018  Citation Panzenhagen PHN, Paul NC, Conte Junior CA, Costa RG, Rodrigues DP, Shah DH. 2018. Draft genome sequences of 11 Salmonella enterica serovar Typhimurium strains isolated from human systemic and nonsystemic sites in Brazil. Genome Announc .01223-17.  Copyright © 2018 Panzenhagen et al. This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.  Address correspondence to Devendra H. Shah, dshah@vetmed.wsu.edu.  PROKARYOTES  crossm  Volume 6 Issue 5 e01223-17 genomea.asm.org 1  mailto:dshah@vetmed.wsu.edu   Accession number(s). The draft genome sequences are available in GenBank under the accession numbers listed in Table 1.  ",
+  "accession numbers_merge": "['SAMN05505503[BioSample]', 'NRDN00000000[WGS]', 'SAMN05505500[BioSample]', 'SAMN05505501[BioSample]', 'SAMN05505493[BioSample]', 'NPJU00000000[WGS]', 'SAMN05505498[BioSample]', 'SAMN05505502[BioSample]', 'NRDL00000000[WGS]', 'NPJT00000000[WGS]', 'NPJQ00000000[WGS]', 'NPJS00000000[WGS]', 'SAMN05505495[BioSample]', 'NPJR00000000[WGS]', 'SAMN05505494[BioSample]', 'SAMN05505499[BioSample]', 'SAMN05505504[BioSample]', 'NPJP00000000[WGS]', 'NRDM00000000[WGS]', 'NSDQ00000000[WGS]', 'NPMT00000000[WGS]', 'SAMN05505496[BioSample]']",
+  "location": {
+    "lat": -10.3333333,
+    "lon": -53.2
+  },
+  "countryname": "Brazil"
+}

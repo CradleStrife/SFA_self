@@ -1,0 +1,63 @@
+{
+  "pmid": 35522801.0,
+  "pmcid": "PMC9070058",
+  "title": "Pericardial effusion with a ruptured mycotic pseudoaneurysm secondary to Salmonella infection.",
+  "abstract": null,
+  "authors": "['Leong, Lai Kuan', 'Chung, Bui Khiong', 'Tan, Chen Ting']",
+  "journal": "Rev Soc Bras Med Trop",
+  "year": "2022 Jul",
+  "source": "Rev Soc Bras Med Trop. ;55:. doi:10.1590/0037-8682-0053-2022.",
+  "country": "Malaysia",
+  "url": "ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_package/f4/91/PMC9070058.tar.gz",
+  "doi": "10.1590/0037-8682-0053-2022",
+  "key_words": null,
+  "filename": "PMC9070058/1678-9849-rsbmt-55-e0053-2022.pdf",
+  "clean_text": "Revista da Sociedade Brasileira de Medicina Tropical Journal of the Brazilian Society of Tropical Medicine  Vol.:55 | (e0053-2022) | 2022 https://doi.org/10.1590/0037-8682-0053-2022  doi  Images in Infectious Diseases  Pericardial effusion with a ruptured mycotic pseudoaneurysm  secondary to Salmonella infection  Lai Kuan Leong[1]  , Bui Khiong Chung[2]   and Chen Ting Tan[2]    [1]. Ministry of Health Malaysia, Miri General Hospital, Department of Medicine, Miri, Sarawak, Malaysia.  [2]. Ministry of Health Malaysia, Sarawak General Hospital Heart Centre, Department of Cardiology, Kuching, Sarawak, Malaysia.  A 59-year-old Iban man with an underlying hypertension and  a history of pulmonary tuberculosis experienced an on-off chest  pain and reduced effort tolerance for 1 month. He presented to  the hospital due to a worsening chest pain.  On  physical  examination,  the  patient  was  afebrile.  Result  of  the  cardiovascular  examination  was  unremarkable.  Consolidation or effusion was not observed on chest radiography.  Electrocardiography showed diffuse ST elevation; hence, fibrinolytic  therapy was administered (Figure 1). Electrocardiography showed  persistent  ST  elevation  without  dynamic  ischemic  changes.  The  patient s C-reactive peptide level was high (408.8 mg/L).   The  ST  elevation  myocardial  infarction  had  reverted  to  pericarditis.  Nonsteroidal  anti-inflammatory  drug  therapy  was  started but was later switched to high-dose aspirin due to acute  kidney injury. Echocardiography revealed pericardial effusion with  signs of tamponade (Figure 2). Pericardiocentesis was performed,  and  the  pericardial  fluid  culture  showed  Salmonella  enteritidis.  Intravenous ceftriaxone was administered.   The patient s condition deteriorated.   Patient s  computed  tomography  angiogram  showed  a  ruptured aortic arch saccular aneurysm measuring 1.7 3 4.1 cm,   FIGURE 1: Electrocardiogram showing diffuse ST elevation.  Corresponding author: Dr. Lai Kuan Leong. e-mail: lk429@yahoo.com  Authors  contribution: LKL: Conceptualization of the study, acquisition of data, writing the article and submitting the article. BKC:  Supervision, review and editing the article.  CTT: Supervision, review and editing the article.  Conflict of Interest: The authors declare that there is no conflict of interest.  Financial Support: We did not receive any financial support.  Received 11 February 2022 | Accepted 9 March 2022  1  www.scielo.br/rsbmt  I  www.rsbmt.org.brLeong LK et al. | Salmonella causing ruptured mycotic pseudoaneurysm  FIGURE 2: Echocardiography showing pericardial effusion and tamponade signs.  surrounded by a rim of mediastinal hematoma 5.7 6.6 5.3 cm  that extended into the left main bronchus (Figure 3).   The  patient  was  frail  to  undergo  surgical  intervention  and   eventually died.   Mycotic  pseudoaneurysms  and  massive  pericardial  effusion  due to Salmonella infection rarely occur1. However, complications  are often fatal. Hence, early diagnosis and intervention are crucial  to reduce mortality1.  FIGURE 3: Computed tomography angiogram showing a ruptured aortic  arch saccular aneurysm (arrow).  ACKNOWLEDGMENTS  We would like to thank the Director General of Health Malaysia  for his permission to publish this article. We express our greatest  gratitude to Hospital Miri staff who took good care of the patient.  REFERENCES  1.  Guo  Y,  Bai  Y,  Yang  C,  Wang  P,  Gu  L.  Mycotic  aneurysm  due  to  Salmonella species: clinical experiences and review of the literature.  Braz J Med Biol Res. 2018;51(9):e6864.  2  OPEN ACCESS  www.scielo.br/rsbmt  I  www.rsbmt.org.br",
+  "isolate_id": "NA",
+  "isolate_source": "Pericardial fluid",
+  "isolate_date": [
+    "2022"
+  ],
+  "isolate_country": "Malaysia: Miri, Sarawak",
+  "serotype": [
+    "Salmonella enteritidis"
+  ],
+  "mlst": [
+    "NA"
+  ],
+  "ast_data": [
+    {
+      "serotype": "Salmonella enteritidis",
+      "antibiotics": [
+        {
+          "name": "Ceftriaxone",
+          "mic": "NA",
+          "interpretation": "NA"
+        }
+      ]
+    }
+  ],
+  "spi": [
+    "NA"
+  ],
+  "amr": [
+    "NA"
+  ],
+  "plasmid": [
+    "NA"
+  ],
+  "snp": [
+    "NA"
+  ],
+  "virulence genes": [
+    "NA"
+  ],
+  "accession numbers": [],
+  "final_cleaned_text": "Images in Infectious Diseases  doi  Revista da Sociedade Brasileira de Medicina Tropical Journal of the Brazilian Society of Tropical Medicine  Vol.:55 | (e0053-2022) | 2022  Corresponding author: Dr. Lai Kuan Leong. e-mail: lk429@yahoo.com Authors’ contribution: LKL: Conceptualization of the study, acquisition of data, writing the article and submitting the article. BKC:  Supervision, review and editing the article. CTT: Supervision, review and editing the article. Conflict of Interest: The authors declare that there is no conflict of interest. Financial Support: We did not receive any financial support. Received 11 February 2022 | Accepted 9 March 2022  Pericardial effusion with a ruptured mycotic pseudoaneurysm secondary to Salmonella infection  Lai Kuan Leong[1] , Bui Khiong Chung[2]  and Chen Ting Tan[2]   [1]. Ministry of Health Malaysia, Miri General Hospital, Department of Medicine, Miri, Sarawak, Malaysia. [2]. Ministry of Health Malaysia, Sarawak General Hospital Heart Centre, Department of Cardiology, Kuching, Sarawak, Malaysia.  FIGURE 1: Electrocardiogram showing diffuse ST elevation.  A 59-year-old Iban man with an underlying hypertension and a history of pulmonary tuberculosis experienced an on-off chest pain and reduced effort tolerance for 1 month. He presented to the hospital due to a worsening chest pain.  On physical examination, the patient was afebrile. Result of the cardiovascular examination was unremarkable. Consolidation or effusion was not observed on chest radiography. Electrocardiography showed diffuse ST elevation; hence, fibrinolytic therapy was administered (Figure 1). Electrocardiography showed persistent ST elevation without dynamic ischemic changes. The patient’s C-reactive peptide level was high (408.8 mg/L).  The ST elevation myocardial infarction had reverted to pericarditis. Nonsteroidal anti-inflammatory drug therapy was started but was later switched to high-dose aspirin due to acute kidney injury. Echocardiography revealed pericardial effusion with signs of tamponade (Figure 2). Pericardiocentesis was performed, and the pericardial fluid culture showed Salmonella enteritidis. Intravenous ceftriaxone was administered.  The patient’s condition deteriorated.  Patient’s computed tomography angiogram showed a ruptured aortic arch saccular aneurysm measuring 1.7×3×4.1 cm,  mailto:lk429@yahoo.com    Leong LK et al. | Salmonella causing ruptured mycotic pseudoaneurysm  FIGURE 2: Echocardiography showing pericardial effusion and tamponade signs.  FIGURE 3: Computed tomography angiogram showing a ruptured aortic arch saccular aneurysm (arrow).  surrounded by a rim of mediastinal hematoma 5.7×6.6×5.3 cm that extended into the left main bronchus (Figure 3).  The patient was frail to undergo surgical intervention and eventually died.  Mycotic pseudoaneurysms and massive pericardial effusion due to Salmonella infection rarely occur1. However, complications are often fatal. Hence, early diagnosis and intervention are crucial to reduce mortality1.  ",
+  "accession numbers_merge": "[]",
+  "location": {
+    "lat": 4.3351077,
+    "lon": 113.9865341
+  },
+  "countryname": "Malaysia"
+}
