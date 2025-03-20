@@ -1,0 +1,90 @@
+services:
+  eureka-server: 
+    build: ./eureka-server/demo
+    ports:
+      - "8761:8761"
+    
+    networks:
+      - eureka-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://eureka-server:8761"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    networks:
+      - eureka-network
+  
+  celery:
+    build: ./django/scripts/searchtest
+    command: celery -A searchtest worker --loglevel=info
+    volumes:
+      - ./django/scripts/searchtest:/app
+    depends_on:
+      - django
+      - redis
+    networks:
+      - eureka-network
+
+  celery_beat:
+    build: ./django/scripts/searchtest
+    command: celery -A searchtest beat --loglevel=info
+    volumes:
+      - ./django/scripts/searchtest:/app
+    depends_on:
+      - django
+      - redis
+    networks:
+      - eureka-network
+
+  django:
+    build: ./django/scripts/searchtest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./django/scripts/searchtest:/app
+    environment:
+      - EUREKA_SERVER
+      - EUREKA_APP_NAME
+      - EUREKA_INSTANCE_PORT
+      - EUREKA_HOST
+      - ELASTICSEARCH_URL=http://10.96.80.76:9200,http://10.96.80.76:9201
+      - CORS_ALLOWED_ORIGINS=http://localhost:5173,http://192.168.2.181:5173
+      - INDEX_NAME=local
+    networks:
+      - eureka-network
+
+
+  vue:
+    build: ./vue
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./vue:/app
+      - ./vue/node_modules:/app/node_modules
+      - ./vue/src:/app/src
+    env_file:
+      - ./vue/.env.docker
+    depends_on:
+      - django
+    networks:
+      - eureka-network
+  
+  monitoring_dj:
+    build: ./monitoring/Mdjango
+    environment:
+      - CURRENT_HOST
+      - PYTHONUNBUFFERED=1  
+    depends_on:
+      - django
+      - eureka-server
+    networks:
+      - eureka-network
+
+networks:
+  eureka-network:
+    driver: bridge

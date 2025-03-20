@@ -1,0 +1,9 @@
+{
+    "local": {
+      "API_HOST": "http://localhost:8000"
+    },
+    "production": {
+      "API_HOST": "http://192.168.10.222:8000"
+    }
+  }
+  

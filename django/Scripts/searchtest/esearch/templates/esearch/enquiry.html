@@ -1,0 +1,81 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Safety News Enquiry</title>
+    <link rel="stylesheet" href="{% static 'css/enquiry.css' %}">
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-container">
+        <a class="nav-link" href="#">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Links</button>
+            <div class="dropdown-content">
+                <a href="{% url 'esearch:search_view' %}">Home</a>
+                <a href="{% url 'esearch:enquiry' %}">Enquiry</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="sidebar">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="#">Search Tips</a></li>
+            <li><a href="#">Recent Searches</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <form class="form-container" action="{% url 'esearch:enquiry' %}" method="post">
+            {% csrf_token %}
+            <div class="form-section">
+                <label for="title">Search by Title:</label>
+                <input id="title" name="title" type="text" class="form-input" placeholder="Enter title">
+            </div>
+
+            <div class="form-section">
+                <label for="pmc_id">Search by PMC_ID:</label>
+                <input id="pmc_id" name="pmc_id" type="text" class="form-input" placeholder="Enter PMC_ID">
+            </div>
+
+            <div class="form-section">
+                <label for="abstract">Search by Abstract:</label>
+                <input id="abstract" name="abstract" type="text" class="form-input" placeholder="Enter abstract text">
+            </div>
+
+            <div class="form-section">
+                <label for="pub_country">Search by Publication Country:</label>
+                <input id="pub_country" name="pub_country" type="text" class="form-input" placeholder="Enter country">
+            </div>
+
+            <div class="form-section">
+                <label for="pub_year">Search by Publication Year:</label>
+                <input id="pub_year" name="pub_year" type="text" class="form-input" placeholder="Enter year">
+            </div>
+
+            <div class="form-section">
+                <label for="doi">Search by DOI:</label>
+                <input id="doi" name="doi" type="text" class="form-input" placeholder="Enter DOI">
+            </div>
+
+            <div class="form-section">
+                <label for="Country">Search by Country:</label>
+                <input id="Country" name="Country" type="text" class="form-input" placeholder="Enter country">
+            </div>
+
+            <div class="form-section">
+                <label for="Serotype">Search by Serotype:</label>
+                <input id="Serotype" name="Serotype" type="text" class="form-input" placeholder="Enter serotype">
+            </div>
+
+            <button type="submit" class="btn">Enquire</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
